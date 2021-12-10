@@ -1,0 +1,163 @@
+/* audi-fonts-css v1.4.1 */
+@font-face {
+  font-family: AudiType;
+  font-stretch: 100%;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://assets.audi.com/audi-fonts/1/AudiTypeVF.woff2)
+      format("woff2-variations"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-Normal.woff2)
+      format("woff2"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-Normal.woff)
+      format("woff"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-Normal.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: AudiType;
+  font-stretch: 100%;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://assets.audi.com/audi-fonts/1/AudiTypeVF.woff2)
+      format("woff2-variations"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-Bold.woff2)
+      format("woff2"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-Bold.woff) format("woff"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-Bold.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: AudiType;
+  font-stretch: 100%;
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://assets.audi.com/audi-fonts/1/AudiType-Italic.woff2)
+      format("woff2"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-Italic.woff)
+      format("woff"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-Italic.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: AudiType;
+  font-stretch: 100%;
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://assets.audi.com/audi-fonts/1/AudiType-BoldItalic.woff2)
+      format("woff2"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-BoldItalic.woff)
+      format("woff"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-BoldItalic.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: AudiTypeExtended;
+  font-stretch: 130%;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://assets.audi.com/audi-fonts/1/AudiTypeVF.woff2)
+      format("woff2-variations"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-ExtendedBold.woff2)
+      format("woff2"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-ExtendedBold.woff)
+      format("woff"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-ExtendedBold.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: AudiTypeExtended;
+  font-stretch: 130%;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://assets.audi.com/audi-fonts/1/AudiTypeVF.woff2)
+      format("woff2-variations"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-ExtendedNormal.woff2)
+      format("woff2"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-ExtendedNormal.woff)
+      format("woff"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-ExtendedNormal.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: AudiTypeExtended;
+  font-stretch: 130%;
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://assets.audi.com/audi-fonts/1/AudiType-ExtendedItalic.woff2)
+      format("woff2"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-ExtendedItalic.woff)
+      format("woff"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-ExtendedItalic.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: AudiTypeExtended;
+  font-stretch: 130%;
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://assets.audi.com/audi-fonts/1/AudiType-ExtendedBoldItalic.woff2)
+      format("woff2"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-ExtendedBoldItalic.woff)
+      format("woff"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-ExtendedBoldItalic.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: AudiTypeWide;
+  font-stretch: 105%;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://assets.audi.com/audi-fonts/1/AudiTypeVF.woff2)
+      format("woff2-variations"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-WideBold.woff2)
+      format("woff2")
+      url(https://assets.audi.com/audi-fonts/1/AudiType-WideBold.woff)
+      format("woff"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-WideBold.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: AudiTypeWide;
+  font-stretch: 105%;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://assets.audi.com/audi-fonts/1/AudiTypeVF.woff2)
+      format("woff2-variations"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-WideNormal.woff2)
+      format("woff2"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-WideNormal.woff)
+      format("woff"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-WideNormal.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: AudiTypeWide;
+  font-stretch: 105%;
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://assets.audi.com/audi-fonts/1/AudiType-WideLight.woff2)
+      format("woff2"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-WideLight.woff)
+      format("woff"),
+    url(https://assets.audi.com/audi-fonts/1/AudiType-WideLight.ttf)
+      format("truetype");
+}
+.audifonts__audi-type {
+  font-family: AudiType, sans-serif;
+}
+.audifonts__audi-type-extended {
+  font-family: AudiTypeExtended, sans-serif;
+}
+.audifonts__audi-type-wide {
+  font-family: AudiTypeWide, sans-serif;
+}
+.audifonts--bold {
+  font-weight: 700;
+}
+.audifonts--light {
+  font-weight: 200;
+}
+.audifonts--italic {
+  font-style: italic;
+}
+/*# sourceMappingURL=audi-fonts-css.min.css.map */

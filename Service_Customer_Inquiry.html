@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquiry</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/global.js"></script>
+    <script src="js/popup.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+    
+</head>
+<body>
+    <header>
+        <div>
+            <h1>
+                <a href="index.html">
+                    <img src="images/mainLogo.jpg" alt="Lotte Tower">
+                </a>
+            </h1>       
+            <nav>
+                <ul>
+                    <li>SEOUL SKY
+                        <ul>
+                            <li><a href="About_Seoul_Sky.html">About SEOUL SKY</a></li>
+                            <li><a href="Gallery.html">Gallery</a></li>
+                            <li><a href="WAY_TO_COME.html">Way to come</a></li>
+                            <li><a href="Affiliate.html">Advertisement/Affiliate</a></li>
+                        </ul>
+                    </li>
+                    <li>Facility Information
+                        <ul>
+                            <li><a href="Attractions.html">Attractions</a></li>
+                            <li><a href="Facility_Information.html">Facility introduction</a></li>
+                            <li><a href="Facility_Information_Sky_Bridge_Tour.html">Sky Bridge Tour</a></li>
+                        </ul>
+                    </li>
+                    <li>Visiting Information
+                        <ul>
+                            <li><a href="Visiting_information.html">Information Use</a></li>
+                            <li><a href="Visiting_Event.html">Event</a></li>
+                            <li><a href="Preferential_Benefit.html">Preferential benefit</a></li>
+                            <li><a href="Group_information.html">Group/Company</a></li>
+                        </ul>
+                    </li>
+                    <li>Service Center
+                        <ul>
+                            <li><a href="Service_Notice.html">Notice</a></li>
+                            <li><a href="Service_FAQ.html">FAQ</a></li>
+                            <li><a href="Service_Customer_Inquiry.html">Customer's voice benefit</a></li>
+                        </ul>
+                    </li>
+                    <li>App Download
+                        <ul>
+                            <li><a href="AppDownload.html">App Download</a></li>
+                            <li><a href="My_page.html">My page</a></li>
+                            <!-- file 분리. -->
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <button type="button" class="selectButton">ENG</button>
+                <ul>
+                    <li>
+                        <a href="">JAP</a>
+                    </li>
+                    <li>
+                        <a href="">CHI</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="servie1_bg">
+        <ul class="service_move">
+            <li class="tabBtn active" data-tab="inquiry">Inquiry</li>
+            <li class="tabBtn" data-tab="customer">Customer's Word</li>
+            <li class="tabBtn" data-tab="foundcenter">Lost and Found Center</li>
+        </ul>
+    </div>
+
+    <section id="inquiry" class="inquirySection tabPg active">
+        <h2>Inquiry</h2>
+        <form>
+            <table class="tableForm">
+                <tbody>
+                    <tr>
+                        <th>
+                            <label for="inquiry_type">Inquiry type</label>
+                        </th>
+                        <td>
+                            <select id="inquiry_type">
+                                <option>Choose</option> 
+                                <option>Rate Inquiry</option>
+                                <option>Ticketing</option>
+                                <option>Group inquiry</option>
+                                <option>Inquiry</option>
+                                <option>Other inquiries</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="userName">Name</label>
+                        </th>
+                        <td>
+                            <input type="text" id="userName" maxlength="8">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="phone_number">Phone number</label>
+                        </th>
+                        <td>
+                            <input type="tel" id="phone_number" maxlength="11">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="emailID">Email</label>
+                        </th>
+                        <td>
+                            <input type="email" id="emailID">
+                            <span>@</span>
+                            <input type="email" id="emailAddress">
+                            <select id="domain">
+                                <option>Direct input</option>
+                                <option>hanmail.net</option>
+                                <option>hatmail.com</option>
+                                <option>nate.com</option>
+                                <option>yahoo.co.kr</option>
+                                <option>naver.com</option>
+                                <option>hanmir.com</option>
+                                <option>korea.com</option>
+                                <option>orgio.net</option>
+                                <option>shinbiro.com</option>
+                                <option>Iycos.co.kr</option>
+                                <option>netian.com</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="title_box">Title</label>
+                        </th>
+                        <td>
+                            <input type="text" id="title_box" placeholder="Please write at least 20 characters">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="contents_box">Contents</label>
+                        </th>
+                        <td>
+                            <textarea id="contents_box" placeholder="Please write at least 20 characters"></textarea>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="Collection_personal">
+                <h3>Information on collection and use of personal information</h3>
+                <p>
+                    <strong>Personal Information Collection and Use Agreement</strong>
+                    I agree to the collection and use of my personal information as follows in connection with the writing of the inquiry
+                    <span>
+                        Matters concerning the collection and use of personal information <br>
+                        1. Purpose of collection and use of personal information: Purpose of checking customer requests and inquiries, contacting and notifying for fact-finding, and notification oprocessing results, etc.<br>
+                        2. Items of personal information to be collected: name, contact information, e-mail. <br>
+                        <mark>3. Period of retention and use of personal information: 1 year from the date of consent for collection and use (after that, only the contents are kept.)</mark>
+                        ※ You have the right to refuse to consent to the collection and use of personal information, and if you do not agree, the use of the service is restricted.
+                    </span>
+                </p>
+                <input type="checkbox" id="agree_collection">
+                <label for="agree_collection">I agree to the collection and use of personal information.</label>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Enrollment">
+                <input type="reset" value="reset">
+            </div>
+        </form>
+    </section>
+    
+    <section id="customer" class="customerSection tabPg">
+        <h2>Customer's Word</h2>
+        <div>
+            <p>Self - authentication</p>
+            <div><a href="#">cell phone Certification</a></div><div><a href="#">I-PIN authentication</a></div>
+        </div>
+
+        <div class="active">
+            <form>
+                <fieldset>
+                    <legend>Self - authentication</legend>
+                    <table class="tableForm">
+                        <tbody>
+                            <tr>
+                                <th>
+                                    <label for="reply">How to reply</label>
+                                </th>
+                                <td>
+                                    <select id="reply">
+                                        <option>Choose</option>
+                                        <option>E-mail</option>
+                                        <option>Phone call</option>
+                                        <option>SMS</option>
+                                        <option>Reject reply</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="btn_radio1">Inquiry Type</label>
+                                </th>
+                                <td>
+                                    <input type="radio" id="btn_radio1">
+                                    <label for="btn_radio1">Discomfort</label>
+                                
+                                    <input type="radio" id="btn_radio2">
+                                    <label for="btn_radio2">Praise</label>
+                                
+                                    <input type="radio" id="btn_radio3">
+                                    <label for="btn_radio3">Suggestions</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="service_type">Service type</label>
+                                </th>
+                                <td>
+                                    <select id="service_type">
+                                        <option>Choose</option>
+                                        <option>Ticketing facility</option>
+                                        <option>Entrance</option>
+                                        <option>Facilities</option>
+                                        <option>Amenities</option>
+                                        <option>Staff service</option>
+                                        <option>Group customer</option>
+                                        <option>Safety and security</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="userName">Name</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="userName" maxlength="8">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="phone_number">Phone number</label>
+                                </th>
+                                <td>
+                                    <input type="tel" id="phone_number" maxlength="11">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="age">Age</label>
+                                </th>
+                                <td>
+                                    <select id="age">
+                                        <option>Choose</option>
+                                        <option>Teens</option>
+                                        <option>Twenties</option>
+                                        <option>Thirties</option>
+                                        <option>Forties</option>
+                                        <option>Fifties</option>
+                                        <option>Sixties</option>
+                                        <option>Seventies</option>
+                                        <option>Eighties</option>
+                                    </select>
+                                    
+                                    <label for="btn_Mradio" class="gender">Gender</label>
+
+                                    <input type="radio" id="btn_Mradio1">
+                                    <label for="btn_Mradio1" class="men">Men</label>
+
+                                    <input type="radio" id="btn_Wradio2">
+                                    <label for="btn_Wradio2" class="women">Women</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="emailID">Email</label>
+                                </th>
+                                <td>
+                                    <input type="email" id="emailID">
+                                    <span>@</span>
+                                    <input type="email" id="emailAddress">
+                                    <select id="domain">
+                                        <option>Direct input</option>
+                                        <option>hanmail.net</option>
+                                        <option>hatmail.com</option>
+                                        <option>nate.com</option>
+                                        <option>yahoo.co.kr</option>
+                                        <option>naver.com</option>
+                                        <option>hanmir.com</option>
+                                        <option>korea.com</option>
+                                        <option>orgio.net</option>
+                                        <option>shinbiro.com</option>
+                                        <option>Iycos.co.kr</option>
+                                        <option>netian.com</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="calendar">Date of visit</label>
+                                </th>
+                                <td>
+                                    <input type="date" id="calendar">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="title_box">Title</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="title_box" placeholder="Please enter the subject">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="contents_box">Contents</label>
+                                </th>
+                                <td>
+                                    <textarea id="contents_box" placeholder="Please write at least 20 characters"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="attachedFile">Attachments</label>
+                                </th>
+                                <td>
+                                    <input type="file" id="attachedFile">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="attachedFile2">Attachments</label>
+                                </th>
+                                <td>
+                                    <input type="file" id="attachedFile2">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="attachedFile3">Attachments</label>
+                                </th>
+                                <td>
+                                    <input type="file" id="attachedFile3">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    Only jpg, gif, png, bmp, hwp, doc, docx, xls, xlsx, ppt, pptx, pdf, txt (file extension) files of 5 MB or less can be attached.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="Collection_personal">
+                        <h3>Information on collection and use of personal information</h3>
+                        <p>
+                            <strong>Personal Information Collection and Use Agreement</strong>
+                            I agree to the collection and use of my personal information as follows in connection with the writing of the inquiry
+                            <span>
+                                Matters concerning the collection and use of personal information <br>
+                                1. Purpose of collection and use of personal information: Purpose of checking customer requests and inquiries, contacting and notifying for fact-finding, and notification oprocessing results, etc. <br>
+                                2. Items of personal information to be collected: name, contact information, e-mail. <br>
+                                <mark>3. Period of retention and use of personal information: 1 year from the date of consent for collection and use (after that, only the contents are kept.)</mark>
+                                ※ You have the right to refuse to consent to the collection and use of personal information, and if you do not agree, the use of the service is restricted.
+                            </span>
+                        </p>
+                        <input type="checkbox" id="agree_collection1">
+                        <label for="agree_collection1">I agree to the collection and use of personal information.</label>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Enrollment ">
+                        <input type="reset" value="reset">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <section id="foundcenter" class="findSection tabPg">
+        <h2>Lost and Found Center</h2>
+
+        <div class="FoundPopup">
+            <a class="downloadA openBtn" data-popName="tableup3">View Lost and Found Procedures</a>
+        </div>
+
+        <div class="tableup03 closeBtn" id="tableup3">
+            <div>
+                <h3>
+                    Lost and Found Procedure
+                    <a class="material-icons-outlined">close</a>
+                </h3>
+                <table class="birdgeTable">
+                    <tbody>
+                        <tr>
+                            <th>When a lost item is received</th>
+                            <th>When a found item is received</th>
+                        </tr>
+                        <tr>
+                            <td>① Lost and Found → ② Found and Found → ③ Hand over</td>
+                            <td>① Lost and Found → ② Found and Found → ③ Hand over</td>
+                        </tr>
+                        <tr>
+                            <td>① Lost and found → ② Found and unconfirmed
+                                → ③ Lost and found center</td>
+                            <td>① Lost and found → ② Found and unconfirmed →
+                                ③ Lost and found center → ④ Posted on website the next day
+                                → ⑤ Transfer to Songpa Liaison Office at the end of each month
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="foundbox">
+            <input type="date" id="minRange">
+            <span>~</span>
+            <input type="date" id="maxRange">
+            <select id="divSelect">
+                <option>Division</option>
+                <option>Camera</option>
+                <option>Wallet</option>
+                <option>Bag</option>
+                <option>Cell phone</option>
+                <option>Clothes</option>
+                <option>Glasses</option>
+                <option>Card</option>
+                <option>ETC</option>
+            </select>
+            <input type="submit" value="search">
+            <input type="reset" value="reset search">
+        </div>
+        <ul>
+            <li>• Operating hours: 09:30 ~ 21:00 </li>
+            <li>• Location information: Information desk in the B1F lobby</li>
+            <li>• Phone number: 02-3213-8001</li>
+        </ul>
+
+        <div class="inventory">
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Division</th>
+                        <th>Find</th>
+                        <th>Acquisition date</th>
+                        <th>processing result</th>
+                    </tr>
+                    <tr>
+                        <td>Clothes</td>
+                        <td>Clothes</td>
+                        <td>2021-09-18</td>
+                        <td>Seoul Sky in storage</td>
+                    </tr>
+                    <tr>
+                        <td>Card</td>
+                        <td>Card</td>
+                        <td>2021-09-13</td>
+                        <td>Seoul Sky in storage</td>
+                    </tr>
+                    <tr>
+                        <td>Etc</td>
+                        <td>Brooch</td>
+                        <td>2021-09-11</td>
+                        <td>Seoul Sky in storage</td>
+                    </tr>
+                    <tr>
+                        <td>Etc</td>
+                        <td>Cash</td>
+                        <td>2021-09-08</td>
+                        <td>Seoul Sky in storage</td>
+                    </tr>
+                    <tr>
+                        <td>Etc</td>
+                        <td>Xiaomi band</td>
+                        <td>2021-09-05</td>
+                        <td>Seoul Sky in storage</td>
+                    </tr>
+                    <tr>
+                        <td>Etc</td>
+                        <td>Picture</td>
+                        <td>2021-09-05</td>
+                        <td>Seoul Sky in storage</td>
+                    </tr>
+                    <tr>
+                        <td>Precious metal</td>
+                        <td>Necklace</td>
+                        <td>2021-09-04</td>
+                        <td>Seoul Sky in storage</td>
+                    </tr>
+                    <tr>
+                        <td>Card</td>
+                        <td>Card</td>
+                        <td>2021-09-04</td>
+                        <td>pick-up</td>
+                    </tr>
+                    <tr>
+                        <td>Etc</td>
+                        <td>Seoul Sky Photos</td>
+                        <td>2021-09-04</td>
+                        <td>Disposal</td>
+                    </tr>
+                    <tr>
+                        <td>Etc</td>
+                        <td>ID Card</td>
+                        <td>2021-09-03</td>
+                        <td>pick-up</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="paging">
+            <a href=""></a>
+            <a href=""></a>
+            <ol>
+                <li class="active"><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+                <li><a href="">5</a></li>
+                <li><a href="">6</a></li>
+                <li><a href="">7</a></li>
+                <li><a href="">8</a></li>
+                <li><a href="">9</a></li> 
+                <li><a href="">10</a></li>
+            </ol>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <ul>
+                <li><h2>SEOUL SKY</h2>
+                    <ul>
+                        <li><a href="About_Seoul_Sky.html">About SEOUL SKY</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li><a href="WAY_TO_COME.html">Way to come</a></li>
+                        <li><a href="Affiliate.html">Advertisement/Affiliate</a></li>
+                    </ul>
+                </li>
+                <li><h2>Facility Information</h2>
+                    <ul>
+                        <li><a href="Attractions.html">Attractions</a></li>
+                        <li><a href="Facility_Information.html">Facility introduction</a></li>
+                        <li><a href="Facility_Information_Sky_Bridge_Tour.html">Sky Bridge Tour</a></li>
+                    </ul>
+                </li>
+                <li><h2>Visiting Information</h2>
+                    <ul>
+                        <li><a href="Visiting_information.html">Information Use</a></li>
+                        <li><a href="Visiting_Event.html">Event</a></li>
+                        <li><a href="Preferential_Benefit.html">Preferential benefit</a></li>
+                        <li><a href="Group_information.html">Group/Company</a></li>
+                    </ul>
+                </li>
+                <li><h2>Service Center</h2>
+                    <ul>
+                        <li><a href="Service_Notice.html">Notice</a></li>
+                        <li><a href="Service_FAQ.html">FAQ</a></li>
+                        <li><a href="Service_Customer_Inquiry.html">Customer's voice benefit</a></li>
+                        <li><a href="customer_Inquiry.html">- Inquiry</a></li>
+                        <li><a href="customer_word.html">- Customer's Word</a></li>
+                        <li><a href="customer_FoundCenter.html">- Lost and Found Center</a></li>
+                    </ul>
+                </li>
+                <li><h2>App Download</h2>
+                    <ul>
+                        <li><a href="AppDownload.html">Ticket Reservation</a></li>
+                        <li><a href="My_page.html">My page</a></li>
+                    </ul>
+                </li>
+            </ul> 
+        </div>
+        <div>
+            <ul>
+                <li><span>HAPPYLOTTEWORLD@LOTTE.NETCOPYRIGHT© 2017 SEOUL SKY. ALL RIGHTS RESERVED</span></li>
+                <li><a href="About_Seoul_Sky.html">About SEOUL SKY</a></li>
+                <li><a href="Privacy_policy.html">Privacy policy</a></li>
+                <li><a href="Terms_of_Use.html">Terms of Use</a></li>
+                <li><a href="Rejection_of_unauthorized_collection_of_e-mail_addresses.html">Rejection of unauthorized collection of e-mail</a></li>
+                <li><a href="Service_Notice.html">Notice</a></li>
+            </ul>
+            <p>Certification scope | Online reservation service operation (Lotte World)</p>
+            <p>Expiration date        | 2020.11.18~2023.11.17</p>
+        </div>
+    </footer>
+</body>
+</html>

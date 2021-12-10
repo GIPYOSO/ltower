@@ -1,0 +1,422 @@
+.slideB div.slide h2, .slideB div.slide p, div.MPage > figure figcaption h2,
+section.Connect > figure figcaption h2, section.snsArea h2,
+.aboutbg h2, .aboutpg > figure figcaption h3, section.nameArea h3,
+.Gtitle h2, .gallerypg > ul li div p, .Affpg h3, .Advertising h3, .Advertising a,
+.Facilitybg h2, .Facilitybg ul li, .FacilityBody section h2, .FacilityBody section strong, .FacilityBody section a,
+.grayBox div h2, .bridgePg h3, .birdgeSection h3, tr th,
+.Visiting_move ul li a, .opensection h2, #VisitingPg2 h2, #VisitingPg3 h2, #visitinPg4 h2, #visitingPg5 h2, .opensection h3, .opensection h4,  .opensection h3.fsize30,
+.TourGuidepg h2, .TourGuidepg h3, .TourGuidepg > div h4, .Facilit h2, .Facilit h3, .Facilit h4, .NoteOnUse h2,
+.NoteOnUse h3, .NoteOnUse h4, #visitingPg2 h2, #visitingPg3 h2, #visitingPg4 h2, #visit_Event h2, .Visiting_event_move li, .EventList li div h3, #visit_CloseEvent h2, .ClosedEventList li div:first-of-type h3, .EventList li div p:first-of-type,
+.GroupPgAct li, #useGuide h2, .GroupUseGuide div h3, .tableup01 div h4, .tableup02 div h4, #groupSection h2, #groupSection div h3, #rentalReservation h2, .Lounge123 h2, .Lounge123 h3,
+.appmove, .noticePg h2, .faqPg h2, .faqPg ul li div:first-of-type p, .faqPg ul li div:last-of-type span, .service_move li, .inquirySection h2, .customerSection h2, .findSection h2, .inquirySection div h3,
+.Benefit h2, .customerSection p, .customerSection div:last-of-type form fieldset legend, .tableForm tr td .gender, .findSection .foundbox span, .tableup03 h3, .terms_move li, .websiteTermsSection h2,
+.websiteTermsSection div h3, .Rejection h2, .Rejection strong{
+    font-family: AudiTypeExtended;
+}
+
+header > div nav > ul > li, header > div nav > ul > li ul li a, header > div > div button, .slideB > div .btn.white, div.MPage > figure figcaption a, section.snsArea > ul > li > div strong, section.snsArea > ul > li > div span,
+section.snsArea > ul > li > div > ul li, section.snsArea > ul > li > div p, section.snsArea > ul > li > div a, .aboutbg div a, .aboutpg figure figcaption p,
+section.nameArea div, .direction p, .gallerypg > ul li div a, section.wtc h2, .accordionContainer, ul.accordionContainer li div strong, .accordionContainer ul li p, ul.accordionContainer li div:last-child p mark,
+.direction ul:first-child li div p, .direction p, .direction ul:last-child li,  section.pvideo h2,
+.FacilityBody section p, .grayBox div p, .bridgePg p, .birdgeTable td, .Affpg p .starP li, .starP, .hyphenP,
+.opensection p, .lounge123_img > div div p, .Ting1 > div p, .opensection .Ting3 > div p, .opensection .Ting4 p,
+.TourGuidepg > div p, .Facilit div p, .NoteOnUse > .NoteOnUse div:first-of-type p, .NoteOnUse div ol li,
+.NoteOnUse div ul li, .EventList li div p, .ClosedEventList li div p, .EventList li div a, .ClosedEventList li div:first-of-type a, .GroupUseGuide div p, 
+.tableup01 div table tbody tr th, .tableup01 div table tbody tr td, .tableup02 div table tbody tr th, .tableup02 div table tbody tr td,
+#groupSection div ol, #groupSection div a, .Lounge123 div table tr td, #appPg h2, #appPg div h3, #appPg div p, #appPg div div a, #myPg h2,
+#myPg p, #myPg button, #myPg div a, .noticePg strong, .tableForm tr td:first-child, .tableForm tr td:last-child select, .tableForm tr td:last-child input, .tableForm tr td:last-child span,
+.tableForm tr td textarea, .tableForm tr:nth-of-type(2) td label,.tableForm tr td label.men, .tableForm tr td label.women .inquirySection div p,
+.inquirySection input[type="submit"], .findSection .foundbox #minRange, .findSection .foundbox #maxRange, .findSection .foundbox select, .findSection .foundbox input[type='reset'],
+.tableup03 div table tbody tr th, .findSection tr, .websiteTermsSection div ul li, .websiteTermsSection div ul > li h4, .Rejection p{
+    font-family: AudiTypeWide;
+}
+
+.fancyBoxList{
+    display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+    html{
+        height: 100%;
+    }
+    header{
+        padding: 20px 0;
+    }
+    header > div{
+        max-width: 928px; margin: 0 auto; 
+    }
+    header > div::after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    header > div h1{
+        max-width: 108px; float: left; width: 15%;
+    }
+    header > div h1 a img{
+        width: 100%;
+    }
+    header > div nav{
+        width: 69.5%; float: left; right: 0; top: 0; margin-left: 3%;
+        box-sizing: border-box; text-align: left;
+    }
+    header > div nav > ul > li{
+        display: inline-block; line-height: 55px;
+        position: relative; vertical-align: top;
+    }
+    header > div nav > ul > li:not(:first-child){
+        margin-left: 3%;
+    }
+    header > div nav > ul > li a{
+        text-decoration: none; color: black;
+    }
+    header > div nav > ul > li > a{
+        font-family: AudiType; font-size: 1vw; font-weight: normal; color: #666666;
+    }
+    header > div nav > ul > li ul{
+        overflow-y: hidden; height: 0;
+    }
+    header > div nav:hover > ul > li ul{
+        height: 323px;
+    }
+    header > div nav > ul > li ul li a{
+        font-size: 8px; font-weight: normal;
+    }
+    header > div > div{
+        display: inline-block; line-height: 40px; width: 3%; margin-left: 6%;
+        position: relative;
+    }
+    header > div > div button{
+        font-weight: normal; font-size: 13PX; color: #666666;
+        border: 0; outline: 0; background: 0; line-height: 55px; display: block; padding-right: 20px;
+        background: url("../images/arrow_down.png") no-repeat 100%;
+    }
+    header > div > div ul{
+        position: absolute; top: 50px; right: -20px; font-family: AudiType; z-index: 100;
+        border: 1px solid #ccc; background-color: #fff; padding: 0 20px; display: none;
+    }
+    header > div > div ul.active{
+        display: block;
+    }
+    header > div > div ul li{
+      list-style: none; font-size: 13PX; color: #000; 
+    }
+    header > div > div ul li a{
+        text-decoration: none; color: #000;
+    }
+
+    [class$=bg]{
+        background-size:cover; background-repeat: no-repeat; background-position: center;
+    }
+
+    .material-icons-outlined{
+        font-family: 'Material Icons';
+    }
+
+    .btn{
+        border-width: 1px; border-style: solid; display: block;
+        text-decoration: none;
+    }
+    .btn.black{
+        color: #000; border-color: #000;
+    }
+    .btn.white{
+        color: #fff; border-color: #fff;
+    }
+    .birdgeTable{
+        max-width: 1440px; width: 100%;
+    }
+    .birdgeTable tr th{
+        height: 80px; background-color: #666; font-size: 21px; font-weight: bold; color: #fff;
+        vertical-align: middle; text-align: center; border: 2px solid #fff;
+    }
+    .birdgeTable tr td{
+        background-color: #f2f2f2; font-size: 16px; font-weight: normal; text-align: center; border: 2px solid #fff;
+    }
+
+    .downloadA{
+        font-size: 14px; font-weight: normal; border: 1px solid #000; color: #fff; background-color: #000;
+        text-decoration: none; padding: 2px 10px; float: left; margin-left: 20px;
+    }
+    .downloadA:hover{
+        background-color: #fff; color: #000; cursor: pointer;
+    }
+    .accordionContainer{
+        list-style: none;
+    }
+    .accordionContainer li{
+       border-top: 1px solid #999; cursor: pointer;
+        position: relative;
+    }
+    .accordionContainer li div:first-child{
+        padding: 30px 0;
+    }
+    .accordionContainer li div:first-of-type span{
+        position: absolute; right: 2%; top: 25px; font-size: 30px;
+        transition: transform 0.75s ease-in-out;
+    }
+    .accordionContainer li div:last-child{
+        background-color: #f2f2f2; display: none;
+    }
+    .accordionContainer li div:last-child p{
+        padding: 10px 2%;
+    }
+    .accordionContainer li.active div:last-child{
+        display: block;
+    }
+    .accordionContainer li.active span{
+        transform: rotate(-180deg);
+    }
+    .accordionContainer li:last-child{
+        border-bottom: 1px solid #999; margin-bottom: 95px;
+    }
+    .accordionContainer p mark{
+        background: none; font-weight: normal; font-style: normal;
+    }
+
+    footer{
+        background-color: #000;
+    }
+    footer > div{
+        max-width: 728px; margin: 0 auto;
+    }
+    footer > div:first-child{
+        border-bottom: 1px solid #fff; padding: 50px 0 135px; margin-bottom: 25px;
+    }
+    footer > div:first-child > ul::after{
+        content: ''; display: block; clear: both;
+    }
+    footer > div:first-child > ul > li{
+        float: left; width: 15.2%; 
+    }
+    footer > div:first-child > ul > li:not(:first-child){
+        margin-left: 6%;
+    }
+    footer > div:first-child > ul > li > h2{
+        font-family: AudiTypeExtended; font-weight: bold; font-size: 18px; height: 60px;
+        color: #fff; line-height: 30px;
+    }
+    footer > div:first-child > ul > li > ul{
+        margin-top: 20px;
+    }
+    footer > div:first-child > ul > li > ul li a{
+        font-family: AudiTypeExtended; font-weight: normal; font-size: 10px;
+        text-decoration: none; color: #fff; line-height: 30px;
+    } 
+    
+    footer > div:last-child > ul{
+        margin-bottom: 50px;
+    }
+    footer > div:last-child > ul li{
+        display: inline-block; line-height: 20px;
+    }
+    footer > div:last-child > ul li span {
+        font-family: AudiTypeExtended;
+        font-weight: normal; font-size: 12px; color: #fff;
+    }
+    footer > div:last-child > ul li:not(:last-child){
+        margin-right: 3%;
+    }
+    footer > div:last-child > ul li a{
+        font-family: AudiTypeExtended; font-size: 12px; color: #fff; text-decoration: none;
+    }
+    footer > div:last-child p{
+        font-family: AudiTypeExtended; font-size: 12px; color: #fff;
+    }
+    footer > div:last-child p:last-child{
+        padding-bottom: 50px;
+    }
+    #map{
+        width: 100%; height: 737px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    html{
+        height: 100%;
+    }
+    header{
+        padding: 20px 0;
+    }
+    header > div{
+        max-width: 1770px; margin: 0 auto; 
+    }
+    header > div::after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    header > div h1{
+        max-width: 108px; float: left; width: 15%;
+    }
+    header > div h1 a img{
+        width: 100%;
+    }
+    header > div nav{
+        width: 69.5%; float: left; right: 0; top: 0; margin-left: 5.5%;
+        box-sizing: border-box; text-align: left;
+    }
+    header > div nav > ul > li{
+        display: inline-block;
+        line-height: 55px;
+        position: relative; vertical-align: top;
+    }
+    header > div nav > ul > li:not(:first-child){
+        margin-left: 5%;
+    }
+    header > div nav > ul > li a{
+        text-decoration: none; color: black;
+    }
+    header > div nav > ul > li > a{
+        font-family: AudiType; font-size: 1vw; font-weight: normal; color: #666666;
+    }
+    header > div nav > ul > li ul{
+        overflow-y: hidden; height: 0;
+    }
+    header > div nav:hover > ul > li ul{
+        height: 323px;
+    }
+    header > div nav > ul > li ul li a{
+        font-family: AudiType; font-size: 12px; font-weight: normal;
+    }
+    header > div > div{
+        display: inline-block; line-height: 40px; width: 3%; margin-left: 12%;
+        position: relative;
+    }
+    header > div > div button{
+        font-family: AudiType; font-weight: normal; font-size: 13PX; color: #666666;
+        border: 0; outline: 0; background: 0; line-height: 55px; display: block; padding-right: 20px;
+        background: url("../images/arrow_down.png") no-repeat 100%;
+    }
+    header > div > div ul{
+        position: absolute; top: 50px; right: 0; font-family: AudiType; z-index: 100;
+        border: 1px solid #ccc; background-color: #fff; padding: 0 20px; display: none;
+    }
+    header > div > div ul.active{
+        display: block;
+    }
+    header > div > div ul li{
+      list-style: none; font-size: 13PX; color: #000; 
+    }
+    header > div > div ul li a{
+        text-decoration: none; color: #000;
+    }
+
+    [class$=bg]{
+        background-size:cover; background-repeat: no-repeat; background-position: center;
+    }
+
+    .material-icons-outlined{
+        font-family: 'Material Icons';
+    }
+
+    .btn{
+        border-width: 1px; border-style: solid; display: block;
+        text-decoration: none;
+    }
+    .btn.black{
+        color: #000; border-color: #000;
+    }
+    .btn.white{
+        color: #fff; border-color: #fff;
+    }
+    .birdgeTable{
+        max-width: 1440px; width: 100%;
+    }
+    .birdgeTable tr th{
+        height: 80px; background-color: #666; font-size: 21px; font-weight: bold; color: #fff;
+        vertical-align: middle; text-align: center; border: 2px solid #fff;
+    }
+    .birdgeTable tr td{
+        background-color: #f2f2f2; font-size: 16px; font-weight: normal; text-align: center; border: 2px solid #fff;
+    }
+
+    .downloadA{
+        font-size: 14px; font-weight: normal; border: 1px solid #000; color: #fff; background-color: #000;
+        text-decoration: none; padding: 2px 10px; float: left; margin-left: 20px;
+    }
+    .downloadA:hover{
+        background-color: #fff; color: #000; cursor: pointer;
+    }
+    .accordionContainer{
+        list-style: none;
+    }
+    .accordionContainer li{
+       border-top: 1px solid #999; cursor: pointer;
+        position: relative;
+    }
+    .accordionContainer li div:first-child{
+        padding: 30px 0;
+    }
+    .accordionContainer li div:first-of-type span{
+        position: absolute; right: 2%; top: 25px; font-size: 30px;
+        transition: transform 0.75s ease-in-out;
+    }
+    .accordionContainer li div:last-child{
+        background-color: #f2f2f2; display: none;
+    }
+    .accordionContainer li div:last-child p{
+        padding: 10px 2%;
+    }
+    .accordionContainer li.active div:last-child{
+        display: block;
+    }
+    .accordionContainer li.active span{
+        transform: rotate(-180deg);
+    }
+    .accordionContainer li:last-child{
+        border-bottom: 1px solid #999; margin-bottom: 95px;
+    }
+    .accordionContainer p mark{
+        background: none; font-weight: normal; font-style: normal;
+    }
+
+    footer{
+        background-color: #000;
+    }
+    footer > div{
+        max-width: 1770px; margin: 0 auto;
+    }
+    footer > div:first-child{
+        border-bottom: 1px solid #fff; padding: 50px 0 135px; margin-bottom: 25px;
+    }
+    footer > div:first-child > ul::after{
+        content: ''; display: block; clear: both;
+    }
+    footer > div:first-child > ul > li{
+        float: left; width: 15.2%; 
+    }
+    footer > div:first-child > ul > li:not(:first-child){
+        margin-left: 6%;
+    }
+    footer > div:first-child > ul > li > h2{
+        font-family: AudiTypeExtended; font-weight: bold; font-size: 15px;
+        color: #fff; line-height: 120px;
+    }
+    footer > div:first-child > ul > li > ul li a{
+        font-family: AudiTypeExtended; font-weight: normal; font-size: 12px;
+        text-decoration: none; color: #fff; line-height: 30px;
+    } 
+    
+    footer > div:last-child > ul{
+        margin-bottom: 50px;
+    }
+    footer > div:last-child > ul li{
+        display: inline-block; line-height: 20px;
+    }
+    footer > div:last-child > ul li span {
+        font-family: AudiTypeExtended;
+        font-weight: normal; font-size: 12px; color: #fff;
+    }
+    footer > div:last-child > ul li:not(:last-child){
+        margin-right: 3%;
+    }
+    footer > div:last-child > ul li a{
+        font-family: AudiTypeExtended; font-size: 12px; color: #fff; text-decoration: none;
+    }
+    footer > div:last-child p{
+        font-family: AudiTypeExtended; font-size: 12px; color: #fff;
+    }
+    footer > div:last-child p:last-child{
+        padding-bottom: 50px;
+    }
+    #map{
+        width: 100%; height: 737px;
+    }
+}

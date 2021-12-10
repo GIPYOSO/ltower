@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opening hours</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/global.js"></script>
+    <script src="js/popup.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>
+                <a href="index.html">
+                    <img src="images/mainLogo.jpg" alt="Lotte Tower">
+                </a>
+            </h1>       
+            <nav>
+                <ul>
+                    <li>SEOUL SKY
+                        <ul>
+                            <li><a href="About_Seoul_Sky.html">About SEOUL SKY</a></li>
+                            <li><a href="Gallery.html">Gallery</a></li>
+                            <li><a href="WAY_TO_COME.html">Way to come</a></li>
+                            <li><a href="Affiliate.html">Advertisement/Affiliate</a></li>
+                        </ul>
+                    </li>
+                    <li>Facility Information
+                        <ul>
+                            <li><a href="Attractions.html">Attractions</a></li>
+                            <li><a href="Facility_Information.html">Facility introduction</a></li>
+                            <li><a href="Facility_Information_Sky_Bridge_Tour.html">Sky Bridge Tour</a></li>
+                        </ul>
+                    </li>
+                    <li>Visiting Information
+                        <ul>
+                            <li><a href="Visiting_information.html">Information Use</a></li>
+                            <li><a href="Visiting_Event.html">Event</a></li>
+                            <li><a href="Preferential_Benefit.html">Preferential benefit</a></li>
+                            <li><a href="Group_information.html">Group/Company</a></li>
+                        </ul>
+                    </li>
+                    <li>Service Center
+                        <ul>
+                            <li><a href="Service_Notice.html">Notice</a></li>
+                            <li><a href="Service_FAQ.html">FAQ</a></li>
+                            <li><a href="Service_Customer_Inquiry.html">Customer's voice benefit</a></li>
+                        </ul>
+                    </li>
+                    <li>App Download
+                        <ul>
+                            <li><a href="AppDownload.html">App Download</a></li>
+                            <li><a href="My_page.html">My page</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <button type="button" class="selectButton">ENG</button>
+                <ul>
+                    <li>
+                        <a href="">JAP</a>
+                    </li>
+                    <li>
+                        <a href="">CHI</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="Visiting_bg">
+        <ul class="Visiting_move">
+            <li class="tabBtn active" data-tab="visitingPg1">Opening hours</li>
+            <li class="tabBtn" data-tab="visitingPg2">Ticket information</li>
+            <li class="tabBtn" data-tab="visitingPg3">Tour guide</li>
+            <li class="tabBtn" data-tab="visitingPg4">Facilities</li>
+            <li class="tabBtn" data-tab="visitingPg5">Notes on use</li>
+        </ul>
+    </div>
+
+    <section class="tabPg active" id="visitingPg1">
+        <div class="opensection">
+            <h2>Opening hours</h2>
+            <div class="opT">
+                <h3>Observatory opening hours</h3>
+                <table class="birdgeTable">
+                    <tbody>
+                        <tr>
+                            <th>Division</th>
+                            <th>Existing business hours</th>
+                            <th>Adjusted business hours</th>
+                        </tr>
+                        <tr>
+                            <td>sun ~ thursday</td>
+                            <td>10:00 ~ 22:00</td>
+                            <td rowspan="2"> <mark>10:00 ~ 22:00</mark></td>
+                        </tr>
+                        <tr>
+                            <td>Fridays, Saturdays, days before holidays</td>
+                            <td>10:00 ~ 23:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ul class="starP">
+                    <li>* Admission and ticket closing 1 hour before closing</li>
+                    <li>* Tickets and entry restrictions for 3 or more people after 18:00</li>
+                    <li>* However, exceptions apply to family members living together (required to bring a copy of resident registration)</li>
+                </ul>
+            </div>
+
+            <div class="img_information">
+                <div>
+                    <img src="../images/Visiting_information_1.jpg" alt="ticket img">
+                </div>
+                <div>
+                    <h3>Observatory opening hours</h3>
+                    <p>The on-site ticket office opens at <mark>9:50.</mark></p>
+                    <ul class="starP">
+                        <li>* Closing time 21:00</li>
+                        <li>* The same is true for the last ticket issuance on the same day at the group ticket office.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="opensection">
+            <h2>Operation by situation</h2>
+            <div class="img_information">
+                <div>
+                    <img src="../images/Visiting_Information_2.jpg" alt="Facility img">
+                </div>
+                <div>
+                    <h3>Facility operation</h3>
+                    <p>For the safety of visitors, the 120th floor sky terrace will not be open depending on the weather.</p>
+                    <ul class="hyphenP">
+                        <li>- When a weather forecast that exceeds the advisory has been issued or is scheduled (heavy rain advisory, strong wind advisory, yellow sand advisory, etc.)</li>
+                        <li>- 5mm of rainfall per hour</li>
+                        <li>- When the temperature difference between indoor and outdoor temperature is 18 degrees or more</li>
+                    </ul>
+                    <p>For the safety of visitors, the operating methods of the sky deck, sky terrace, and photo zone may change without notice depending on the number of passengers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tabPg" id="visitingPg2">
+        <h2>Ticket information <span>(fare and reservation, issuance, cancellation information)</span></h2>
+        <div class="opensection">
+            <h3 class="Ticketh3">Ticket type and price</h3>
+
+            <ul class="hyphenP">
+                <li>- There are two types of tickets for admission to the observatory: a regular ticket and a Fast Pass.</li>
+                <li>- Fast Pass is a direct entry ticket without prior reservation.</li>
+            </ul>
+            <p class="marginB20P">General tickets are divided into two types according to the age of the guest on the resident registration.</p>
+            <table class="birdgeTable">
+                <tbody class="fourTable">
+                    <tr>
+                        <th colspan="2">General Ticket</th>
+                        <th rowspan="2">Fast Pass<br> (all ages)</th>
+                        <th colspan="2">Seoul Sky + Aquarium Package</th>
+                    </tr>
+                    <tr>
+                        <td>Adult<br>(Ages 13 and older)</td>
+                        <td>Child<br>(36 months or older ~ 12 years old or younger)</td>
+                        <td>Adult<br>(Ages 13 and older)</td>
+                        <td>children/route<br>
+                            (Children: 36 months or older ~<br>
+                            12 years old or younger<br>
+                            Route: 65 years of age or older)</td>
+                    </tr>
+                    <tr>
+                        <td>27,000 won</td>
+                        <td>24,000 won</td>
+                        <td>50,000 won</td>
+                        <td>54,000 won</td>
+                        <td>48,000 won</td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul class="starP">
+                <li>* General tickets can be purchased online/mobile/on-site ticket offices. For details, please refer to the ‘General Ticket Reservation Guide’ section below.</li>
+                <li>* The Seoul Sky + Aquarium package must be visited on the day of use. (100% refund before using the package, no partial refund after using one store)</li>
+                <li>* Children under 36 months are free of charge when accompanied by a guardian. (However, please bring supporting documents)</li>
+                <li>* 30% discount on SEOUL SKY tickets on the National Merit Stock Exchange</li>
+                <li>* 30% discount on SEOUL SKY admission ticket upon presentation of disability ID</li>
+            </ul>
+            <p>The Fast Pass is the same price for all ages (50,000 won) and can only be purchased at the on-site ticket office on the day of your visit.</p>
+        </div>
+
+        <div class="opensection">
+            <h3>Sky Bridge Tour Ticket Information</h3>
+            <table class="birdgeTable">
+                <tbody>
+                    <tr>
+                        <th colspan="2">Ddivision</th>
+                        <th>Price</th>
+                        <th>Note</th>
+                    </tr>
+                    <tr>
+                        <td class="basement" rowspan="3">1st basement ticket office</td>
+                        <td>Normal</td>
+                        <td>100,000 won</td>
+                        <td>Admission ticket, tour ticket, 2 photos</td>
+                    </tr>
+                    <tr>
+                        <td>Special</td>
+                        <td>110,000 won</td>
+                        <td>Admission ticket, tour ticket, 2 photos<br>
+                            Choose 1 drink from 123 Lounge (coffee, beer, tea)</td>
+                    </tr>
+                    <tr>
+                        <td>Group<br>
+                            (more than 10people)</td>
+                        <td>90,000 won</td>
+                        <td>Admission ticket, tour ticket, 2 photos</td>
+                    </tr>
+                    <tr>
+                        <td>117F tour information desk</td>
+                        <td class="TableNormal">Normal</td>
+                        <td>80,000 won</td>
+                        <td>Tour voucher, 2 photos</td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul class="starP">
+                <li>* Online reservations cannot be made on the day of use.</li>
+                <li>* On-site purchases can be made at the tour information center on the 1st basement floor and the 117th floor, and the remaining quantity sold online.</li>
+            </ul>
+        </div>
+
+        <div class="opensection">
+            <h3>123 Lounge Ticket Information</h3>
+            <table class="birdgeTable">
+                <tbody class="fiveTable">
+                    <tr>
+                        <th colspan="2">123 Lounge Ticket (Ticket)<br>General ticket + drinks (coffee, beer, tea)</th>
+                        <th rowspan="2">Fast Pass + 123 Lounge Ticket<br>(all ages)</th>
+                    </tr>
+                    <tr>
+                        <td>Adult<br>
+                            (Ages 13 and older)</td>
+                        <td>Child<br>
+                            (36 months or older ~ 12 years old or younger)</td>
+                    </tr>
+                    <tr>
+                        <td>37,000 won</td>
+                        <td>34,000 won</td>
+                        <td>60,000 won</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="lounge123_img">
+                <div>
+                    <div><p>COFFEE</p></div>
+                </div>
+                <div>
+                    <div><p>CAFE LATTE</p></div>
+                </div>
+                <div>
+                    <div><p>CLOUD DRAFT BEER</p></div>
+                </div>
+                <div>
+                    <div><p>ICE CREAM (Children Only)</p></div>
+                </div>
+            </div>
+            <ul class="starP">
+                <li>* With this ticket, you can enjoy 123 Lounge drinks (coffee, beer, and tea).</li>
+                <li>* You can check the drink menu at the ticket office at the main entrance on the B1 floor and at Lounge 123.</li>
+                <li>* The 123 Lounge ticket can also be purchased on mobile, and when purchasing a mobile ticket, please pick up the 123 Lounge ticket at the ticket office on the 1st basement floor before entering.</li>
+                <li>* Fast Pass can only be purchased at the on-site ticket office on the day of your visit.</li>
+                <li>* Refunds are not available if the drink voucher is not used.</li>
+                <li>* Please present your lounge ticket at 123 Lounge and select a drink to order.</li>
+                <li>* The closing time for on-site sales is 17:00 on weekdays, and on-site sales are not available on Saturdays, Sundays and public holidays.</li>
+            </ul>
+        </div>
+
+        <div class="opensection">
+            <div class="GeneralSky">
+                <h3 class="fsize30">General ticket reservation information (how to purchase tickets)</h3>
+                <p>Tickets can be reserved 14 days prior to the viewing date, and the reservation period is subject to change. Tickets are issued only on the day of admission.</p>
+                <p>Tickets can be reserved and issued only at the on-site ticket office from 1 hour before the entrance time.</p>
+                <p>Tickets can be purchased online, through the mobile application, and at the on-site ticket office. (Up to 8 tickets can be purchased at a time for online and mobile reservations)</p>
+                <div>
+                    <p class="hyphenP">- Mobile reservation: <strong>App installation screen</strong></p>
+                    <a class="downloadA" href="https://play.google.com/store/apps/details?id=com.lotteworld.ticket.seoulsky&hl=ko">Android Dowunlod</a>
+                    <a class="downloadA" href="https://apps.apple.com/kr/app/%EC%84%9C%EC%9A%B8%EC%8A%A4%EC%B9%B4%EC%9D%B4/id1219891774?mt=8%E2%80%8B">Iphone Dowunlod</a>
+                </div>
+                <p>On-site reservation: Lotte World Tower B1 Observation Deck Lobby</p>
+                <ul class="starP">
+                    <li>* Tickets may be sold out early, or admission may be delayed for customers who have specified an entrance time in advance and issued a ticket.</li>
+                    <li>* For smooth admission, we recommend making a reservation online or through a mobile application in advance.</li>
+                </ul>
+            </div>
+
+            <div class="GeneralSky">
+                <h3 class="fsize30">Sky Bridge Tour Reservation Information</h3>
+                <p>Tour tickets can be reserved one month prior to the date of use, and the reservation period can be adjusted.</p>
+                <p class="starP">* Only same-day tour tickets can be purchased at the on-site ticket office.</p>
+                <p>Tickets can be purchased online, through the mobile application, and at the on-site ticket office (B1 ticket office, 117th floor tour information desk).</p>
+                <div>
+                    <p class="hyphenP">- Mobile reservation: <strong>App installation screen</strong></p>
+                    <a class="downloadA" href="https://play.google.com/store/apps/details?id=com.lotteworld.ticket.seoulsky&hl=ko">Android Dowunlod</a>
+                    <a class="downloadA" href="https://apps.apple.com/kr/app/%EC%84%9C%EC%9A%B8%EC%8A%A4%EC%B9%B4%EC%9D%B4/id1219891774?mt=8%E2%80%8B">Iphone Dowunlod</a>
+                </div>
+                <p>For smooth admission, we recommend making a reservation online or through a mobile application in advance.</p>
+            </div>
+        </div>
+
+        <div class="opensection">
+            <h2>Ticketing information</h2>
+            <div class="Ting1">
+                <h3 class="fsize30">Mobile booking</h3>
+                <div>
+                    <p>Mobile ticket issuance (on the day of admission)</p>
+                    <img src="../images/short_right.png" alt="short_right">
+                    <p>Gate entry</p>
+                </div>
+                <p>If you make a reservation through the mobile application, it is possible to issue a mobile ticket on the day of admission.</p>
+            </div>
+    
+            <div class="Ting2">
+                <h3 class="fsize30">Ticketing method</h3>
+                <div>
+                    <img src="../images/Visiting_Information_7.jpg" alt="Ticketing method img">
+                    <img src="../images/short_right.png" alt="short_right">
+                    <img src="../images/Visiting_Information_8.jpg" alt="Ticketing method img">
+                </div>
+                <p>In this case, you can enter after presenting the mobile ticket in the application without having to visit the on-site ticket office and issue a paper (paper) ticket.</p>
+                <p class="starP">* Guests who have purchased a date and time ticket are requested to arrive at the observatory at least 15 minutes in advance.</p>
+            </div>
+    
+            <div class="Ting3">
+                <h3 class="fsize30">On-site ticketing</h3>
+                <div>
+                    <p>Paper (paper) ticket issuance (on the day of admission)</p>
+                    <img src="../images/short_right.png" alt="short_right">
+                    <p>Gate entry</p>
+                </div>
+                <p>In order to create a safe viewing environment for the observatory, we have limited the number of people who can enter by time. As a result, the waiting time for on-site tickets may be
+                    prolonged or tickets may be sold out early, so advance reservations through online and mobile are recommended.</p>
+            </div>
+    
+            <div class="Ting4">
+                <h3 class="fsize30">Caution</h3>
+                <p>Guests who have purchased a date and time ticket are requested to arrive at the observatory before the entry time.</p>
+                <p>Mobile application (App) tickets and paper (paper) tickets have the same effect.</p>
+                <p>Refunds, exchanges, or reissuances for mobile ticket deletion by mistake by the customer are not allowed.s</p>
+                <p>When making a reservation through the mobile web page rather than the mobile application, you can enter the ticket office after issuing a paper ticket at the on-site ticket office.</p>
+                <p>Copies and captures of all tickets are not permitted.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="tabPg" id="visitingPg3">
+        <h2>Tour guide</h2>
+        <div class="TourGuidepg">
+            <h3>Premium tour</h3>
+
+            <div>
+                <div class="visit_9">visit_9</div>
+                <div>
+                    <h4>Tour destination</h4>
+                    <p>Korea in the world, the place of global business</p>
+                    <p>VIP customers who want a differentiated tour at Seoul Sky, the highest observatory in Korea</p>
+                </div>
+            </div>
+            <div>
+                <div class="visit_10">visit_10</div>
+                <div>
+                    <h4>Tour contents</h4>
+                    <ul class="hyphenP">
+                        <li>- Premium tour ticket gift</li>
+                        <li>- 118th floor Sky Photo Zone photo provided and Seoul Sky souvenirs</li>
+                        <li>- Tower story, exhibition contents, observation view explanation</li>
+                        <li>- Use of VIP lounge</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="visit_11">visit_11</div>
+                <div>
+                    <h4>Tour Inquiries</h4>
+                    <p>Seoul Sky Customer Center 02-3213-8001 / Email seoulsky@lotte.net</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tabPg" id="visitingPg4">
+        <h2>Facilities</h2>
+        <div class="Facilit">
+            <h3>Convenience facility information</h3>
+            <div>
+                <h4>Information</h4>
+                <p>If you visit the on-site information desk, we will answer the questions of customers using Seoul Sky.</p>
+                <p>Location : Next to the ticket office in the B1F lobby</p>
+                <p>Information: Customer service, floor guides, and other facilities usage information</p>
+                <p class="starP">* Luggage storage space at the observatory.<br>
+                    If necessary, please use the Luggage Storage at Lotte World Mall.</p>
+            </div>
+
+            <div>
+                <h4>Infant lounge</h4>
+                <p>We operate a clean baby lounge for mothers and babies under 36 months of age.</p>
+                <p>Location : Observatory B1F, in front of VIP Lounge</p>
+                <p>Composition: Nursing room, diaper changing table, water purifier, microwave oven, air purifier, etc.</p>
+                <p class="starP">* A diaper changing table is also installed in the multipurpose restroom.</p>
+            </div>
+
+            <div>
+                <h4>Infant lounge</h4>
+                <p>We operate facilities for wheelchair guests and other disabled guests. In addition, we will guide you through a separate route that does not use the escalator.</p>
+                <p>Disabled toilets : Lobby on the 1st basement floor, 2 observation floors on the 117th floor</p>
+                <p>Information on the movement : If you ask the on-site staff, we will guide you through a separate movement that does not use the escalator.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="tabPg" id="visitingPg5">
+        <h2>Notes on use</h2>
+        <div class="NoteOnUse">
+            <div>
+                <h3>Information on searching for belongings and prohibited items</h3>
+                <p>In order to create a safe and pleasant viewing environment, SEOUL SKY prohibits the following items from being brought in.<br>
+                    When entering the observatory, visitors' belongings are checked through security screening equipment, so we ask for your cooperation.</p>
+                <div>
+                    <h4>Prohibited items</h4>
+                    <ol>
+                        <li>1 type. Items that may endanger or frighten other guests (weapons, weapons, chemical liquids, etc.)</li>
+                        <li>2 types. Items that may pose a threat to buildings and facilities (such as ignitable items such as cigarettes and lighters, items that can
+                            cause explosion such as butane gas, etc.)</li>
+                        <li>3 types. Items that interfere with the creation of a comfortable viewing environment for guests (food, glass bottles, pets, photography
+                            radio equipment, large bags, vehicles (prams, etc.), sports equipment, electronic cigarettes, etc.) items that can be given, etc.)</li>
+                    </ol>
+                    <ul class="starP">
+                        <li>* Please refer to the link for detailed items.</li>
+                        <li>* Items recovered from the security checkpoint can be picked up at the B1F information desk only on the same day. (Storage up to 1 month)</li>
+                        <li>* Wheelchair access is possible. However, for safe viewing, only the individual and one accompanying person will be guided through a separate route,
+                            so please cooperate with the staff.</li>
+                        <li>* The search equipment uses electromagnetic waves that are harmless to the human body.</li>
+                    </ul>
+                </div>
+                <div class="visit_12">visit_12</div>
+            </div>
+
+            <div>
+                <h3>Guide to viewing etiquette and precautions</h3>
+                <h4>Rules of conduct for safe viewing</h4>
+                <p>Visitors are requested to observe the following for a safe viewing environment in the observatory space.</p>
+                <ul>
+                    <li>Contents</li>
+                    <li>1. Smoking is prohibited in all areas of the building.</li>
+                    <li>2. Bringing in or eating outside food is prohibited.</li>
+                    <li>3. Please refrain from running or shouting in all areas of the observatory.</li>
+                    <li>4. When using the escalator, do not walk and hold the rail handles on both sides.</li>
+                    <li>5. On the sky deck or sky terrace, please refrain from drastic actions that may cause crowds or surprise other guests.</li>
+                    <li>6. Be careful not to throw objects out of the building or drop them downstairs.</li>
+                    <li>7. Please refrain from occupying one seat for a long time, taking a seat, using a tripod (selfie stick), etc., or taking up an excessive range of action, such as lying on the floor.</li>
+                    <li>8. If you need emergency quasi-drugs, please use the infirmary in the World Tower. (For medicines, a doctor's diagnosis is required)</li>
+                    <li>9. All guests, including pregnant women and the elderly, are requested to receive sufficient training from the staff in advance when using the Sky Deck or Sky Terrace.</li>
+                    <li>10. Filming and recording for commercial purposes in the observatory is, in principle, prohibited. (Cooperation with PR team if necessary)</li>
+                </ul>
+
+                <h4>Other notes</h4>
+                <ol>
+                    <li>1. Behavior that harms other spectators or non-compliance with viewing etiquette may result in denial of entry or request to exit.</li>
+                    <li>2. The company is not responsible for accidents, injuries, loss, theft, etc. caused by the negligence of the visitors.</li>
+                    <li>3. In case of intentional damage to the facility while using the observatory, you will be held responsible for the repair.</li>
+                    <li>4. During business hours, viewing may be restricted in some sections due to broadcast shooting and events.</li>
+                    <li>5. Operating days and business hours of internal facilities and contents may change without prior notice according to business policies.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <ul>
+                <li><h2>SEOUL SKY</h2>
+                    <ul>
+                        <li><a href="About_Seoul_Sky.html">About SEOUL SKY</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li><a href="WAY_TO_COME.html">Way to come</a></li>
+                        <li><a href="Affiliate.html">Advertisement/Affiliate</a></li>
+                    </ul>
+                </li>
+                <li><h2>Facility Information</h2>
+                    <ul>
+                        <li><a href="Attractions.html">Attractions</a></li>
+                        <li><a href="Facility_Information.html">Facility introduction</a></li>
+                        <li><a href="Facility_Information_Sky_Bridge_Tour.html">Sky Bridge Tour</a></li>
+                    </ul>
+                </li>
+                <li><h2>Visiting Information</h2>
+                    <ul>
+                        <li><a href="Visiting_information.html">Information Use</a></li>
+                        <li><a href="Visiting_Event.html">Event</a></li>
+                        <li><a href="Preferential_Benefit.html">Preferential benefit</a></li>
+                        <li><a href="Group_information.html">Group/Company</a></li>
+                    </ul>
+                </li>
+                <li><h2>Service Center</h2>
+                    <ul>
+                        <li><a href="Service_Notice.html">Notice</a></li>
+                        <li><a href="Service_FAQ.html">FAQ</a></li>
+                        <li><a href="Service_Customer_Inquiry.html">Customer's voice benefit</a></li>
+                        <li><a href="customer_Inquiry.html">- Inquiry</a></li>
+                        <li><a href="customer_word.html">- Customer's Word</a></li>
+                        <li><a href="customer_FoundCenter.html">- Lost and Found Center</a></li>
+                    </ul>
+                </li>
+                <li><h2>App Download</h2>
+                    <ul>
+                        <li><a href="AppDownload.html">Ticket Reservation</a></li>
+                        <li><a href="My_page.html">My page</a></li>
+                    </ul>
+                </li>
+            </ul> 
+        </div>
+        <div>
+            <ul>
+                <li><span>HAPPYLOTTEWORLD@LOTTE.NETCOPYRIGHT© 2017 SEOUL SKY. ALL RIGHTS RESERVED</span></li>
+                <li><a href="About_Seoul_Sky.html">About SEOUL SKY</a></li>
+                <li><a href="Privacy_policy.html">Privacy policy</a></li>
+                <li><a href="Terms_of_Use.html">Terms of Use</a></li>
+                <li><a href="Rejection_of_unauthorized_collection_of_e-mail_addresses.html">Rejection of unauthorized collection of e-mail</a></li>
+                <li><a href="Service_Notice.html">Notice</a></li>
+            </ul>
+            <p>Certification scope | Online reservation service operation (Lotte World)</p>
+            <p>Expiration date        | 2020.11.18~2023.11.17</p>
+        </div>
+    </footer>
+</body>
+</html>
