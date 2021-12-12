@@ -1020,14 +1020,14 @@
     }
     .EventList li div:first-of-type h3,
     .ClosedEventList li div:first-of-type h3{
-        font-size: 16px; font-weight: bold; margin-bottom: 20px; line-height: 15px;
+        font-size: 18px; font-weight: bold; margin-bottom: 20px; line-height: 15px;
     }
     .EventList li div p:first-of-type{
         font-size: 16px; font-weight: bold; display: block; margin-bottom: 20px;
     }
     .EventList li div p:last-of-type,
     .ClosedEventList li div p{
-        font-size: 14px; font-weight: normal; display: block; margin-bottom: 20px;
+        font-size: 16px; font-weight: normal; display: block; margin-bottom: 20px;
     }
     .EventList li div:first-of-type a,
     .ClosedEventList li div:first-of-type a{
