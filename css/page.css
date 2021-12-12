@@ -1169,35 +1169,38 @@
     #groupSection h2,  #rentalReservation h2{
         font-size: 42PX; font-weight: bold; margin-bottom: 20px;
     }
-    #groupSection div h3{
+    #groupSection > div h3{
         font-size: 30px; margin-bottom: 20px;
     }
-    #groupSection div ol::after{
+    #groupSection > div ol::after{
         content: ''; display: block; clear: both;
     }
-    #groupSection div ol{
+    #groupSection > div ol{
         width: 100%; list-style: none; margin-bottom: 20px;
     }
-    #groupSection div ol li{
+    #groupSection > div ol li{
         float: left;
     }
-    #groupSection div ol li:nth-child(odd){
-        border: 1px solid #000; width: 20%; height: 100px; text-align: center; line-height: 25px;
-        display: flex; align-items: center; justify-content: center; font-weight: bold;
+    #groupSection > div ol li p{
+        font-size: 14px;
     }
-    #groupSection div ol li mark{
+    #groupSection > div ol li:nth-child(odd){
+        border: 1px solid #000; width: 20%; height: 100px; text-align: center; line-height: 25px;
+        display: flex; align-items: center; justify-content: center; font-weight: bold; box-sizing: border-box;
+    }
+    #groupSection > div ol li mark{
         color: #E23A3A; font-weight: normal;
     }
-    #groupSection div ol li:nth-child(even){
+    #groupSection > div ol li:nth-child(even){
         width: 2.15%; font-size: 30px; color: #d9d9d9; line-height: 100px;
     }
-    #groupSection div ol li:not(:first-child){
+    #groupSection > div ol li:not(:first-child){
         margin-left: 2.15%;
     }
-    #groupSection div img{
+    #groupSection > div img{
         width: 100%; margin-bottom: 20px;
     }
-    #groupSection div a{
+    #groupSection > div a{
         text-decoration: none; color: #000;
     }
     .Lounge123 h2{
@@ -1213,11 +1216,11 @@
         width: 20.8%;
     }
     .Lounge123 div table tr td{
-        height: 140px; font-size: 16px; vertical-align: middle;
+        height: 140px; font-size: 14px; vertical-align: middle;
     }
     .Lounge123 div table:first-of-type tr td:nth-child(3),
     .Lounge123 div table:first-of-type tr td:last-child{
-        padding: 0 50px;
+        padding: 10px 50px;
     }
     .Lounge123 div table:last-of-type{
         margin-bottom: 20px;
@@ -1227,6 +1230,9 @@
     }
     .groupBody section{
         display: none;
+    }
+    .Lounge123 div img{
+        width: 100%;
     }
     .groupBody section.active{
         display: block;

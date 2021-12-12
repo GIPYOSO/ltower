@@ -125,7 +125,7 @@ section.nameArea div, .direction p, .gallerypg > ul li div a, section.wtc h2, .a
         max-width: 1440px; width: 100%;
     }
     .birdgeTable tr th{
-        height: 80px; background-color: #666; font-size: 21px; font-weight: bold; color: #fff;
+        height: 80px; background-color: #666; font-size: 18px; font-weight: bold; color: #fff;
         vertical-align: middle; text-align: center; border: 2px solid #fff;
     }
     .birdgeTable tr td{
