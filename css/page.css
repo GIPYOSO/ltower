@@ -361,7 +361,7 @@
     /* Gallery fin */
 
     section.wtc{
-        max-width: 1440px; margin: 0 auto;
+        max-width: 728px; margin: 0 auto;
     }
     section.wtc iframe{
         margin-bottom: 20px; width: 100%; height: 737px;
@@ -392,7 +392,7 @@
         color: #92278f; margin-right: 2.7%;
     }
     section.pvideo{
-        max-width: 1440px; width: 100%; margin: 0 auto;  margin-bottom: 95px;
+        max-width: 728px; width: 100%; margin: 0 auto;  margin-bottom: 95px;
     }
     section.pvideo h2{
         font-size: 42px; font-weight: bold; margin-bottom: 45px;
@@ -404,7 +404,7 @@
     /* way to comr fin */
 
     .Affpg{
-        max-width: 1440px; width: 100%; margin: 0 auto; border-bottom: 1px solid #999; 
+        max-width: 728px; width: 100%; margin: 0 auto; border-bottom: 1px solid #999; 
         margin-bottom: 55px;
     }
     .Affpg h3{
@@ -435,7 +435,7 @@
         margin-bottom: 55px;
     }
     .Advertising{
-        max-width: 1440px; margin: 0 auto; margin-bottom: 95px;
+        max-width: 728px; margin: 0 auto; margin-bottom: 95px;
     }
     .Advertising h3{
         font-size: 42px; font-weight: bold; margin-bottom: 60px;
@@ -468,7 +468,7 @@
     }
     .Attrslider .slideAttraction .scdslide > div > div{
         position: absolute; max-width: 1920px; width: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;
-        bottom: 0; padding: 30px 0;
+        bottom: 0; padding: 0 0 10px;
     }
     .Attrslider .slideAttraction .scdslide > div > div > div{
         max-width: 1440px; margin: 0 auto;
@@ -483,10 +483,10 @@
         line-height: 55px;
     }
     .Attrslider .slideAttraction .scdslide > div > div > div h2{
-        font-size: 42px; font-weight: bold; color: #fff; margin-bottom: 15px;
+        font-size: 30px; font-weight: bold; color: #fff; margin-bottom: 5px;
     }
     .Attrslider .slideAttraction .scdslide > div > div > div h2 span{
-        font-size: 42px; font-weight: bold; color: #FF0D41; margin-right: 15px;
+        font-size: 30px; font-weight: bold; color: #FF0D41; margin-right: 15px;
     }
     .Attrslider .slideAttraction .scdslide > div > div > div p{
         color: #fff; width: 100%; line-height: 20px;
@@ -508,13 +508,15 @@
         background: none;
     }
     .wrapAttraction .bx-wrapper .bx-prev{
-        background-image: url('../images/controls_left.png'); background-size: 100px;
+        background-image: url('../images/controls_left.png'); background-size: 50px;
+        background-repeat: no-repeat;
     }
     .wrapAttraction .bx-wrapper .bx-next {
-        background-image: url('../images/controls_right.png'); background-size: 100px;
+        background-image: url('../images/controls_right.png'); background-size: 50px;
+        background-repeat: no-repeat;
     }
     .wrapAttraction  .bx-wrapper .bx-controls-direction a{
-        width: 110px; height: 100px;
+        width: 50px; height: 50px;
     }
     /* Attraction fin */
 
@@ -532,9 +534,9 @@
         display: flex; align-items: center; bottom: 0;
     }
     .Facilitybg ul li{
-       margin-left: 30px; color: #fff; font-size: 16px; text-decoration: none;
+       margin-left: 15px; color: #fff; font-size: 14px; text-decoration: none;
        cursor: pointer;
-    }  
+    }
     .FacilityBody section{
         max-width: 1440px; margin: 0 auto; margin-bottom: 95px; display: none;
     }
