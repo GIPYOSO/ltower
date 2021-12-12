@@ -679,14 +679,14 @@
         margin-bottom: 175px;
     } 
     .Visiting_move{
-        max-width: 1440px; width: 100%; margin: 0 auto; list-style: none;
+        max-width: 728px; width: 100%; margin: 0 auto; list-style: none;
         padding-top: 399px;
     }
     .Visiting_move::after{
         content: ''; display: block; clear: both;
     }
     .Visiting_move li{
-        float: left; width: 20%; text-decoration: none; font-size: 18px; color: #000; font-weight: bold;
+        float: left; width: 20%; text-decoration: none; font-size: 14px; color: #000; font-weight: bold;
         border: 1px solid #000; height: 80px; display: flex; cursor: pointer;
         justify-content: center; align-items: center; box-sizing: border-box;
     }
@@ -695,7 +695,7 @@
     }
    
     #visitingPg1, #visitingPg2, #visitingPg3, #visitingPg4, #visitingPg5{ 
-        max-width: 1440px; width: 100%; margin: 0 auto; margin-bottom: 95px;
+        max-width: 728px; width: 100%; margin: 0 auto; margin-bottom: 95px;
     }
     .opensection h2{
         font-size: 42px; font-weight: bold; margin-bottom: 20px;
@@ -975,11 +975,11 @@
     /* NoteOnUse fin */
 
     .Visiting_event_move{
-        max-width: 1440px; width: 100%; margin: 0 auto; list-style: none;
+        max-width: 728px; width: 100%; margin: 0 auto; list-style: none;
         padding-top: 399px; cursor: pointer;
     }
      #visit_Event, #visit_CloseEvent, .Benefit{
-        max-width: 1440px; margin: 0 auto; margin-bottom: 95px;
+        max-width: 728px; margin: 0 auto; margin-bottom: 95px;
     }
     .Visiting_event_move, #visit_event ul{
         list-style: none;
@@ -1020,19 +1020,19 @@
     }
     .EventList li div:first-of-type h3,
     .ClosedEventList li div:first-of-type h3{
-        font-size: 21px; font-weight: bold; margin-bottom: 20px; line-height: 30px;
+        font-size: 16px; font-weight: bold; margin-bottom: 20px; line-height: 15px;
     }
     .EventList li div p:first-of-type{
-        font-size: 21px; font-weight: bold; display: block; margin-bottom: 20px;
+        font-size: 16px; font-weight: bold; display: block; margin-bottom: 20px;
     }
     .EventList li div p:last-of-type,
     .ClosedEventList li div p{
-        font-size: 16px; font-weight: normal; display: block; margin-bottom: 20px;
+        font-size: 14px; font-weight: normal; display: block; margin-bottom: 20px;
     }
     .EventList li div:first-of-type a,
     .ClosedEventList li div:first-of-type a{
         display: block; font-size: 16px; font-weight: normal; cursor: pointer;
-        max-width: 200px; text-align: center; line-height: 50px;
+        max-width: 150px; text-align: center; line-height: 50px;
     }
     .BenefitBody,
     .BenefitBody section.Benefit{
