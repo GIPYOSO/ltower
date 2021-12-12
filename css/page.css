@@ -1081,7 +1081,7 @@
         overflow-y: hidden;
     }
     .GroupPgAct{
-        list-style: none; max-width: 1440px; width: 100%; margin: 0 auto; list-style: none;
+        list-style: none; max-width: 728px; width: 100%; margin: 0 auto; list-style: none;
         padding-top: 399px; cursor: pointer;
     }
     .GroupPgAct::after{
@@ -1096,7 +1096,7 @@
         background-color: #333; height: 80px; color: #fff; border: none;
     }
     #useGuide, #groupSection, #rentalReservation{
-        max-width: 1440px; width: 100%; margin: 0 auto; margin-bottom: 95px;
+        max-width: 728px; width: 100%; margin: 0 auto; margin-bottom: 95px;
     }
     #useGuide h2{
         font-size: 42px; font-weight: bold; margin-bottom: 60px;
@@ -1133,11 +1133,11 @@
         display: flex;
     }
     .tableup01 div, .tableup02 div, .tableup03 div{
-        position: relative; max-width: 1200px; width: 100%; height: 50%; background-color: white;
+        position: relative; max-width: 728px; width: 100%; height: 50%; background-color: white;
         font-size: 50px; display: flex; justify-content: center; align-items: center;
     }
     .tableup01 div h4, .tableup02 div h4, .tableup03 h3{
-        position: absolute; top: -80px; width: 100%; height: 80px; background-color: #333; font-size: 30px; font-weight: bold;
+        position: absolute; top: -80px; width: 100%; height: 80px; background-color: #333; font-size: 18px; font-weight: bold;
         color: #fff; line-height: 80px; text-align: center;
     }
     .tableup01 th, .tableup01 td,
@@ -1145,25 +1145,25 @@
         border: 2px solid #fff;
     }
     .tableup01 div table, .tableup02 div table{
-        max-width: 1160px; width: 100%;
+        max-width: 700px; width: 100%;
     }
     .tableup01 div table tbody tr th{
-        height: 80px; background-color: #666; font-size: 20px; font-weight: bold; color: #fff;
+        height: 80px; background-color: #666; font-size: 16px; font-weight: bold; color: #fff;
         vertical-align: middle; text-align: center;
     }
     .tableup01 div table tbody tr td{
-        background-color: #f2f2f2; font-size: 16px; font-weight: normal; text-align: center;
+        background-color: #f2f2f2; font-size: 13px; font-weight: normal; text-align: center;
         height: 60px; vertical-align: middle;
     }
     .tableup02 div table tbody tr th{
-        height: 95px; width: 50%; background-color: #666; font-size: 20px; font-weight: bold; color: #fff;
+        height: 95px; width: 50%; background-color: #666; font-size: 16px; font-weight: bold; color: #fff;
         vertical-align: middle; text-align: center;
     }
     .tableup02 div table tbody tr td{
         height: 95px; width: 50%; vertical-align: middle; background-color: #f2f2f2; font-size: 16px; font-weight: normal; text-align: center;
     }
     .tableup01 div span, .tableup02 div span{
-        position: absolute; display: block; top: -60px; right: 20px; font-size: 50px; color: #fff;
+        position: absolute; display: block; top: -55px; right: 10px; font-size: 35px; color: #fff;
         cursor: pointer;
     }
     #groupSection h2,  #rentalReservation h2{
