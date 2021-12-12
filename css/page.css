@@ -53,7 +53,7 @@
     }
     div.MPage > figure figcaption h2,
     section.Connect > figure figcaption h2{
-        margin-bottom: 20px; font-size: 42px; font-weight: bold;
+        margin-bottom: 20px; font-size: 30px; font-weight: bold;
     }
     div.MPage > figure figcaption p,
     section.Connect > figure figcaption p{
@@ -82,10 +82,10 @@
     }
 
     section.snsArea{
-        max-width: 800px; margin: 0 auto;
+        max-width: 728px; margin: 0 auto;
     }
     section.snsArea h2{
-        font-weight: bold; font-size: 42px; margin-bottom: 40px;
+        font-weight: bold; font-size: 30px; margin-bottom: 40px;
     }
     section.snsArea > ul{
         display: flex; flex-flow: row nowrap;
@@ -118,16 +118,16 @@
     }
 
     section.snsArea > ul > li > div span{
-        font-size: 14px; font-weight: normal;
+        font-size: 12px; font-weight: normal;
     }
     section.snsArea > ul > li > div ul li{
-        font-size: 13px; font-weight: normal; list-style: none;
+        font-size: 12px; font-weight: normal; list-style: none;
     }
     section.snsArea > ul > li > div p{
         font-size: 16px; font-weight: normal;
     }
     section.snsArea > ul > li > div a{
-        font-size: 14px;
+        font-size: 12px;
     }
     section.snsArea > ul > li > a:last-of-type{
         display: block; background-repeat: no-repeat; background-position: left center; position: absolute; bottom: 15px; left: 5%;
@@ -538,14 +538,14 @@
        cursor: pointer;
     }
     .FacilityBody section{
-        max-width: 1440px; margin: 0 auto; margin-bottom: 95px; display: none;
+        max-width: 728px; margin: 0 auto; margin-bottom: 95px; display: none;
     }
     .FacilityBody section div:first-child,
     #facility7 div:nth-child(2){
         margin-bottom: 95px;
     }
     .FacilityBody section h2{
-        font-size: 42px; font-weight: bold; margin-bottom: 20px;
+        font-size: 30px; font-weight: bold; margin-bottom: 20px;
     }
     .FacilityBody section h2 span{
         color: #666;
@@ -578,11 +578,11 @@
         position: relative; max-width: 1920px; margin: 0 auto; margin-bottom: 95px;
     }
     .grayBox{
-        position: absolute; max-width: 1920px; margin: 0 auto; background-color: rgba(0, 0, 0, 0.5); height: 120px; width: 100%;
+        position: absolute; max-width: 1920px; margin: 0 auto; background-color: rgba(0, 0, 0, 0.5); height: 100px; width: 100%;
         z-index: 1; bottom: 0;
     }
     .grayBox div, .bridgePg, .birdgeSection{
-        max-width: 1440px; margin: 0 auto;
+        max-width: 728px; margin: 0 auto;
     }
     .bridgeSlider .bx-wrapper{box-shadow: none; border: none; background: none; margin-bottom: 0;}
     .bridgeSlider .bx-wrapper .bx-pager-item, .bridgeSlider .bx-wrapper .bx-controls-auto .bx-controls-auto-item{display: none;}
@@ -600,19 +600,21 @@
         background: none;
     }
     .bridgeSlider  .bx-wrapper .bx-prev{
-        background-image: url('../images/controls_left.png'); background-size: 100px;
+        background-image: url('../images/controls_left.png'); background-size: 50px;
+        background-repeat: no-repeat;
     }
     .bridgeSlider  .bx-wrapper .bx-next {
-        background-image: url('../images/controls_right.png'); background-size: 100px;
+        background-image: url('../images/controls_right.png'); background-size: 50px;
+        background-repeat: no-repeat;
     }
     .bridgeSlider  .bx-wrapper .bx-controls-direction a{
-        width: 110px; height: 100px;
+        width: 55px; height: 100px;
     }
     .bridgePg{
         margin-bottom: 95px;
     }
     .grayBox div h2{
-        font-size: 42px; font-weight: bold; color: #fff; line-height: 70px;
+        font-size: 30px; font-weight: bold; color: #fff; line-height: 50px;
     }
     .grayBox div p{
         font-size: 16px; font-weight: normal; color: #fff;
@@ -621,10 +623,10 @@
         font-size: 21px; font-weight: bold;
     }
     .bridgePg img:not(:first-of-type){
-        margin-left: 30px;
+        margin-left: 0.5%;
     }
     .bridgePg img{
-        margin-bottom: 40px;
+        margin-bottom: 40px; width: 33%;
     }
     .bridgePg h3, .bridgePg p, .birdgeSection h3{
         margin-bottom: 10px;
