@@ -1273,6 +1273,9 @@
     #appPg > div div a:last-child{
        margin-left: 14.5%;
     }
+    #appPg div:first-of-type img{
+        width: 70%; padding-left: 15%;
+    }
     #appPg div img{
         margin-bottom: 15px;
     }
