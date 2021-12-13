@@ -1365,10 +1365,13 @@
     /* Notice fin */
 
     .faqPg{
-        max-width: 1440px; margin: 0 auto;
+        max-width: 728px; margin: 0 auto;
     }
     .faqPg h2{
         font-size: 42px; margin-bottom: 95px;
+    }
+    .faqPg ul li div:first-of-type{
+        width: 90%;
     }
     .faqPg ul li div:first-of-type p{
         display: inline-block; margin-right: 3.5%;
