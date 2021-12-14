@@ -1552,7 +1552,7 @@
         display: flex;
     }
     .tableup03 div{
-        position: relative; max-width: 1200px; width: 100%; height: 50%; background-color: white;
+        position: relative; max-width: 728px; width: 100%; height: 50%; background-color: white;
         font-size: 50px; display: flex; justify-content: center; align-items: center;
     }
     .tableup03 h3{
@@ -1563,7 +1563,7 @@
         border: 2px solid #fff;
     }
     .tableup03 div table{
-        max-width: 1160px; width: 100%;
+        max-width: 630px; width: 100%;
     }
     .tableup03 div table tbody tr th{
         height: 80px; background-color: #666; font-size: 20px; font-weight: bold; color: #fff;
@@ -1571,7 +1571,7 @@
     }
     .tableup03 div table tbody tr td{
         background-color: #f2f2f2; font-size: 16px; font-weight: normal; text-align: center;
-        height: 60px; vertical-align: middle;
+        height: 110px !important; vertical-align: middle;
     }
     .tableup03 h3 a{
         position: absolute; display: block; top: 0; right: 1.7%; font-size: 50px; color: #fff;
@@ -1590,17 +1590,17 @@
     }
     .findSection .foundbox #minRange,
     .findSection .foundbox #maxRange{
-        width: 23.2%; height: 50px; font-size: 16px; border: none; padding: 0 1%;
+        width: 18%; height: 50px; font-size: 16px; border: none; padding: 0 1%;
     }
     .findSection .foundbox span{
         margin: 0 0.6%; font-size: 30px; font-weight: bold; vertical-align: middle;
     }
     .findSection .foundbox select{
-        width: 11.6%; height: 50px; margin-left: 2.7%; font-size: 16px; border: none;
+        width: 18%; height: 50px; margin-left: 2.7%; font-size: 16px; border: none;
     }
     .findSection .foundbox input[type='submit']{
         background-image: url('../images/search.png'); background-repeat: no-repeat;
-        background-position: center; width: 3.4%; height: 50px; text-indent: -9999px;
+        background-position: center; width: 7%; height: 50px; text-indent: -9999px;
         background-color: #fff; cursor: pointer; box-sizing: border-box; margin-left: 2.7%;
     }
     .findSection .foundbox input[type='reset']{
@@ -1616,7 +1616,7 @@
     .findSection > ul li{
         float: left;
     }
-    .findSection > ul li:not(:first-child){
+    .findSection > ul li:nth-child(2){
         margin-left: 2%;
     }
     .findSection table{
@@ -1648,11 +1648,11 @@
     }
     .paging > a:first-of-type{
         background-image: url('../images/chevron_left.png');
-        left: 30%;
+        left: 12%;
     }
     .paging > a:last-of-type{
         background-image: url('../images/chevron_right.png');
-        right: 30%;
+        right: 12%;
     }
     .paging ol{
         list-style: none; text-align: center;
@@ -1674,14 +1674,14 @@
     /* findSection */
 
     .terms_move{
-        list-style: none; max-width: 1440px; width: 100%; margin: 0 auto;
+        list-style: none; max-width: 728px; width: 100%; margin: 0 auto;
         padding-top: 399px; cursor: pointer;
     }
     .terms_move::after{
         content: ''; display: block; clear: both;
     }
     .terms_move li{
-        float: left; width: 50%; font-size: 21px; color: #000; font-weight: bold;
+        float: left; width: 50%; font-size: 16px; color: #000; font-weight: bold;
         border: 1px solid #000; height: 80px; display: flex;
         justify-content: center; align-items: center; box-sizing: border-box;
     }
@@ -1689,7 +1689,7 @@
         background-color: #333; color: #fff;
     }
     .websiteTermsSection, .Rejection{
-        max-width: 1440px; width: 100%; margin: 0 auto;
+        max-width: 728px; width: 100%; margin: 0 auto; margin-bottom: 95px;
     }
     .websiteTermsSection h2, .Rejection h2{
         font-size: 42px; margin-bottom: 95px;
@@ -1707,7 +1707,7 @@
         content: ''; display: block; clear: both;
     }
     [class ^= 'Chapter_move'] li{
-        float: left; width: 50%; height: 50px; border: 1px solid #333;
+        float: left; width: 50%; height: 50px; border: 1px solid #333; font-size: 14px;
         box-sizing: border-box; padding-left: 1%; line-height: 50px; cursor: pointer;
     }
     [class ^= 'Chapter_move'] li.active{
@@ -1721,7 +1721,7 @@
     .websiteTermsSection div ul > li ol{
         list-style: none;
     }
-    .websiteTermsSection div ul > li{
+    .websiteTermsSection div ul > li:not(:last-child){
         margin-bottom: 60px;
     }
     .websiteTermsSection div ul > li h4{

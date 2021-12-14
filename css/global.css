@@ -27,7 +27,7 @@ section.nameArea div, .direction p, .gallerypg > ul li div a, section.wtc h2, .a
 #myPg p, #myPg button, #myPg div a, .noticePg strong, .tableForm tr td:first-child, .tableForm tr td:last-child select, .tableForm tr td:last-child input, .tableForm tr td:last-child span,
 .tableForm tr td textarea, .tableForm tr:nth-of-type(2) td label,.tableForm tr td label.men, .tableForm tr td label.women .inquirySection div p,
 .inquirySection input[type="submit"], .findSection .foundbox #minRange, .findSection .foundbox #maxRange, .findSection .foundbox select, .findSection .foundbox input[type='reset'],
-.tableup03 div table tbody tr th, .findSection tr, .websiteTermsSection div ul li, .websiteTermsSection div ul > li h4, .Rejection p{
+.tableup03 div table tbody tr th, .findSection tr, [class ^= 'Chapter_move'] li, .websiteTermsSection div ul li, .websiteTermsSection div ul > li h4, .Rejection p{
     font-family: AudiTypeWide;
 }
 
