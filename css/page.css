@@ -1395,14 +1395,14 @@
         margin-bottom: 175px;
     }
     .service_move{
-        list-style: none; max-width: 1440px; width: 100%; margin: 0 auto;
+        list-style: none; max-width: 728px; width: 100%; margin: 0 auto;
         padding-top: 399px; cursor: pointer;
     }
     .service_move::after{
         content: ''; display: block; clear: both;
     }
     .service_move li{
-        float: left; width: 33.33%; font-size: 18px; color: #000; font-weight: bold;
+        float: left; width: 33.33%; font-size: 16px; color: #000; font-weight: bold;
         border: 1px solid #000; height: 80px;
         display: flex; justify-content: center; align-items: center; box-sizing: border-box;
     }
@@ -1410,13 +1410,13 @@
         background-color: #333; color: #fff;
     }
     .inquirySection, .customerSection, .findSection{
-        max-width: 1440px; margin: 0 auto; width: 100%; margin-bottom: 95px; display: none;
+        max-width: 728px; margin: 0 auto; width: 100%; margin-bottom: 95px; display: none;
     }
     .inquirySection h2, .customerSection h2, .findSection h2{
         font-size: 42px; margin-bottom: 95px;
     }
     .tableForm{
-        max-width: 1440px; width: 100%; margin-bottom: 60px;
+        max-width: 1448px; width: 100%; margin-bottom: 60px;
     }
     .tableForm tr th, .tableForm tr td{
         border-top: 1px solid #000; vertical-align: middle;
@@ -1441,7 +1441,7 @@
     }
     .tableForm tr td select#inquiry_type,
     .tableForm tr td select#reply{
-        width: 630px;
+        width: 43.75%;
     }
     .tableForm tr td input[type='radio']{
         width: 3%; 
@@ -1451,17 +1451,21 @@
     }
     .tableForm tr td #inquiry_type,
     .tableForm tr td #age{
-        width: 250px; margin-right: 14.58%;
+        width: 15%; margin-right: 14.58%;
+    }
+    .tableForm tr td input#emailID,
+    .tableForm tr td input#mailAddress{
+        width: 36%;
     }
     .tableForm tr td input#userName,
     .tableForm tr td input#phone_number{
-        width: 622px;
+        width: 43.19%;
     }
     .tableForm tr td span{
         margin: 0 2%; font-size: 21px;
     }
     .tableForm tr td select#domain{
-        width: 200px;
+        width: 40%;
     }
     .tableForm tr td input#title_box,
     .tableForm tr td textarea{
@@ -1471,7 +1475,7 @@
         height: 300px; font-size: 21px;
     }
     .tableForm tr td label.gender{
-        font-size: 30px; font-weight: bold; margin-right: 6.9%;  vertical-align: middle;
+        font-size: 30px; font-weight: bold; margin-right: 1%;  vertical-align: middle;
     }
     .tableForm tr td label.men,
     .tableForm tr td label.women{
