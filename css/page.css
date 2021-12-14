@@ -1451,11 +1451,11 @@
     }
     .tableForm tr td #inquiry_type,
     .tableForm tr td #age{
-        width: 15%; margin-right: 14.58%;
+        width: 27%; margin-right: 3%;
     }
     .tableForm tr td input#emailID,
-    .tableForm tr td input#mailAddress{
-        width: 36%;
+    .tableForm tr td input#emailAddress{
+        width: 36%; margin-bottom: 10px;
     }
     .tableForm tr td input#userName,
     .tableForm tr td input#phone_number{
@@ -1481,6 +1481,11 @@
     .tableForm tr td label.women{
         font-size: 14px; margin-right: 4.5%;  vertical-align: middle;
     }
+    .tableForm tr td input#attachedFile,
+    .tableForm tr td input#attachedFile2,
+    .tableForm tr td input#attachedFile3{
+        padding-left: 8%;
+    }
     .Collection_personal{
         margin-bottom: 30px;
     }
@@ -1504,7 +1509,7 @@
     }
     .submit input[type="submit"],
     .submit input[type="reset"]{
-        width: 9%; height: 50px; background-color: #333; border: none; font-size: 18px;
+        width: 17%; height: 50px; background-color: #333; border: none; font-size: 18px;
         color: #fff; cursor: pointer;
     }
     /* inquirySection */
