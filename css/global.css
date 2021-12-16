@@ -54,6 +54,10 @@ section.nameArea div, .direction p, .gallerypg > ul li div a, section.wtc h2, .a
     header > div h1 a img{
         width: 100%;
     }
+    header > div nav{
+        width: 69.5%; float: right; right: 0; top: 0; margin-left: 3%;
+        box-sizing: border-box; text-align: left;
+    }
     header > div nav div.mui{
         cursor:pointer; padding: 5px 3px; margin: 5px 0 0 auto; width: 22px;
     }
@@ -63,9 +67,8 @@ section.nameArea div, .direction p, .gallerypg > ul li div a, section.wtc h2, .a
     header > div nav div.mui span{
         border-top: 2px solid #000; display: block;
     }
-    header > div nav{
-        width: 69.5%; float: left; right: 0; top: 0; margin-left: 3%;
-        box-sizing: border-box; text-align: left;
+    header > div nav ul{
+        height: 0; overflow: hidden; transition: height 1s ease-in-out;
     }
     header > div nav > ul > li{
         display: inline-block; line-height: 55px;
