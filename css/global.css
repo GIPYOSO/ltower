@@ -85,7 +85,7 @@ header > div nav input[type='checkbox'].mui{
         font-family: AudiType; font-size: 1vw; font-weight: normal; color: #666666;
     }
     header > div nav > ul > li ul{
-        overflow-y: hidden; height: 0;
+        overflow-y: hidden; height: 0; 
     }
     header > div nav:hover > ul > li ul{
         height: 100px;

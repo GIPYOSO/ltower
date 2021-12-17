@@ -15,9 +15,19 @@
     .slideB .bx-wrapper .bx-pager.bx-default-pager a.active,
     .slideB .bx-wrapper .bx-pager.bx-default-pager a:focus {background: #fff;}
     .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 80px; padding-top: none;}
-
+    .slideB ol li{
+        position: relative;
+    }
+    .slideB ol li.slidbg1{
+        background: url('../images/main_bg_1.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
+        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
+    }
+    .slideB ol li.slidbg2{
+        background: url('../images/main_bg_2.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
+        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
+    }
     .slideB div.slide{
-        position: absolute; width: 100%; text-align: center; z-index: 1;
+        position: absolute; width: 100%; text-align: center;
         bottom: 110px;
     }
     .slideB div.slide h2{
@@ -30,17 +40,7 @@
     .slideB > div .btn.white{
         font-weight: bold; font-size: 16px; padding: 15px 50px; display: inline-block;
     }
-    .slideB ol li.slidbg1{
-        background: url('../images/main_bg_1.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
-        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
-    }
-    .slideB ol li.slidbg2{
-        background: url('../images/main_bg_2.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
-        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
-    }
-
-    div.MPage,
-    section.Connect figure{
+    div.MPage, section.Connect figure{
         max-width: 728px; margin: 0 auto;
     }
     div.MPage > figure img,
@@ -1758,9 +1758,19 @@
     .slideB .bx-wrapper .bx-pager.bx-default-pager a.active,
     .slideB .bx-wrapper .bx-pager.bx-default-pager a:focus {background: #fff;}
     .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 80px; padding-top: none;}
-
+    .slideB ol li{
+        position: relative;
+    }
+    .slideB ol li.slidbg1{
+        background: url('../images/main_bg_1.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
+        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
+    }
+    .slideB ol li.slidbg2{
+        background: url('../images/main_bg_2.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
+        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
+    }
     .slideB div.slide{
-        position: absolute; width: 100%; text-align: center; z-index: 1;
+        position: absolute; width: 100%; text-align: center;
         bottom: 110px;
     }
     .slideB div.slide h2{
@@ -1772,14 +1782,6 @@
     }
     .slideB > div .btn.white{
         font-weight: bold; font-size: 16px; padding: 15px 50px; display: inline-block;
-    }
-    .slideB ol li.slidbg1{
-        background: url('../images/main_bg_1.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
-        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
-    }
-    .slideB ol li.slidbg2{
-        background: url('../images/main_bg_2.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
-        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
     }
 
     div.MPage,
