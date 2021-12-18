@@ -58,7 +58,7 @@ header > div nav input[type='checkbox'].mui{
         width: 100%;
     }
     header > div nav{
-        width: 50%; float: right; margin-left: 15%; text-align: center;
+        width: 50%; float: right; margin-left: 15%; text-align:right;
     }
     header > div nav label.mui{
         cursor:pointer; padding: 10px 3px; margin: 5px 0 0 auto; width: 22px; display: block;

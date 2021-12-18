@@ -5,6 +5,9 @@
     }
 
     /* 메인 슬라이더 */
+    .slideB{
+        position: relative;
+    }
     .slideB .bx-wrapper{box-shadow: none; border: none; background: none; margin-bottom: 0;}
     .bx-wrapper .bx-pager{padding-top: 0;}
     .slideB .bx-wrapper .bx-controls-direction a{width: 300px; height: 300px;}
@@ -14,9 +17,6 @@
     .slideB .bx-wrapper .bx-pager.bx-default-pager a.active,
     .slideB .bx-wrapper .bx-pager.bx-default-pager a:focus {background: #fff;}
     .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 80px; padding-top: none;}
-    .slideB ol li{
-        position: relative;
-    }
     .slideB ol li.slidbg1{
         background: url('../images/main_bg_1.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
         text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
@@ -26,8 +26,7 @@
         text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
     }
     .slideB div.slide{
-        position: absolute; width: 100%; text-align: center;
-        bottom: 110px;
+        position: absolute; width: 100%; text-align: center; bottom: 110px;
     }
     .slideB div.slide h2{
         font-size: 60px; color: #fff; margin-bottom: 20px;
@@ -1747,6 +1746,9 @@
     }
 
     /* 메인 슬라이더 */
+    .slideB{
+        position: relative;
+    }
     .slideB .bx-wrapper{box-shadow: none; border: none; background: none; margin-bottom: 0;}
     .bx-wrapper .bx-pager{padding-top: 0;}
     .slideB .bx-wrapper .bx-controls-direction a{width: 300px; height: 300px;}
@@ -1756,9 +1758,6 @@
     .slideB .bx-wrapper .bx-pager.bx-default-pager a.active,
     .slideB .bx-wrapper .bx-pager.bx-default-pager a:focus {background: #fff;}
     .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 80px; padding-top: none;}
-    .slideB ol li{
-        position: relative;
-    }
     .slideB ol li.slidbg1{
         background: url('../images/main_bg_1.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
         text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
