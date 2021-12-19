@@ -103,7 +103,7 @@ header > div nav input[type='checkbox'].mui{
         background: url("../images/arrow_down.png") no-repeat 100%;
     }
     header > div > div ul{
-        position: absolute; top: 50px; right: -20px; font-family: AudiType; z-index: 100;
+        position: absolute; top: 50px; right: -33px; font-family: AudiType; z-index: 100;
         border: 1px solid #ccc; background-color: #fff; padding: 0 20px; display: none;
     }
     header > div > div ul.active{
@@ -307,7 +307,7 @@ header > div nav input[type='checkbox'].mui{
         background: url("../images/arrow_down.png") no-repeat 100%;
     }
     header > div > div ul{
-        position: absolute; top: 50px; right: -20px; font-family: AudiType; z-index: 100;
+        position: absolute; top: 50px; right: -25px; font-family: AudiType; z-index: 100;
         border: 1px solid #ccc; background-color: #fff; padding: 0 20px; display: none;
     }
     header > div > div ul.active{
