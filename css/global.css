@@ -18,7 +18,7 @@ header > div nav > ul > li, header > div nav > ul > li ul li a, header > div > d
 section.snsArea > ul > li > div > ul li, section.snsArea > ul > li > div p, section.snsArea > ul > li > div a, .aboutbg div a, .aboutpg figure figcaption p,
 section.nameArea div, .direction p, .gallerypg > ul li div a, section.wtc h2, .accordionContainer, ul.accordionContainer li div strong, .accordionContainer ul li p, ul.accordionContainer li div:last-child p mark,
 .direction ul:first-child li div p, .direction p, .direction ul:last-child li,  section.pvideo h2,
-.FacilityBody section p, .grayBox div p, .bridgePg p, .birdgeTable td, .Affpg p .starP li, .starP, .hyphenP,
+.FacilityBody section p, .grayBox div p, .bridgePg p, .birdgeTable td, .Affpg p .starP li, .starP, .hyphenP, .Affpg p, .Advertising p,
 .opensection p, .lounge123_img > div div p, .Ting1 > div p, .opensection .Ting3 > div p, .opensection .Ting4 p,
 .TourGuidepg > div p, .Facilit div p, .NoteOnUse > .NoteOnUse div:first-of-type p, .NoteOnUse div ol li,
 .NoteOnUse div ul li, .EventList li div p:first-of-type, .EventList li div p, .ClosedEventList li div p, .EventList li div a, .ClosedEventList li div:first-of-type a, .GroupUseGuide div p, 
@@ -170,7 +170,7 @@ header > div nav input[type='checkbox'].mui{
         background-color: #f2f2f2; display: none;
     }
     .accordionContainer li div:last-child p{
-        padding: 10px 2%;
+        padding: 10px 2%; font-size: 12px;
     }
     .accordionContainer li.active div:last-child{
         display: block;
