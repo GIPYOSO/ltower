@@ -555,14 +555,14 @@
     /* Facility_Information fin */
 
     .bridgeSlider{
-        position: relative; max-width: 1920px; margin: 0 auto; margin-bottom: 95px;
+        position: relative; max-width: 1920px; margin: 0 auto; margin-bottom: 30px;
     }
     .grayBox{
-        position: absolute; max-width: 1920px; margin: 0 auto; background-color: rgba(0, 0, 0, 0.5); height: 100px; width: 100%;
+        position: absolute; max-width: 1920px; margin: 0 auto; height: 100px; width: 100%;
         z-index: 1; bottom: 0;
     }
     .grayBox div, .bridgePg, .birdgeSection{
-        max-width: 728px; margin: 0 auto;
+        max-width: 460px; margin: 0 auto;
     }
     .bridgeSlider .bx-wrapper{box-shadow: none; border: none; background: none; margin-bottom: 0;}
     .bridgeSlider .bx-wrapper .bx-pager-item, .bridgeSlider .bx-wrapper .bx-controls-auto .bx-controls-auto-item{display: none;}
@@ -580,24 +580,24 @@
         background: none;
     }
     .bridgeSlider  .bx-wrapper .bx-prev{
-        background-image: url('../images/controls_left.png'); background-size: 50px;
+        background-image: url('../images/controls_left.png'); background-size: 25px;
         background-repeat: no-repeat;
     }
     .bridgeSlider  .bx-wrapper .bx-next {
-        background-image: url('../images/controls_right.png'); background-size: 50px;
+        background-image: url('../images/controls_right.png'); background-size: 25px;
         background-repeat: no-repeat;
     }
     .bridgeSlider  .bx-wrapper .bx-controls-direction a{
-        width: 55px; height: 100px;
+        width: 25px; height: 25px;
     }
     .bridgePg{
         margin-bottom: 95px;
     }
     .grayBox div h2{
-        font-size: 30px; font-weight: bold; color: #fff; line-height: 50px;
+        font-size: 16px; font-weight: bold; color: #fff; line-height: 50px; text-indent: -9999px;
     }
     .grayBox div p{
-        font-size: 16px; font-weight: normal; color: #fff;
+        font-size: 12px; font-weight: normal; color: #fff; text-indent: -9999px;
     }
     .bridgePg h3, .birdgeSection h3{
         font-size: 21px; font-weight: bold;
