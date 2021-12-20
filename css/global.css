@@ -189,7 +189,7 @@ header > div nav input[type='checkbox'].mui{
         background-color: #000;
     }
     footer > div{
-        max-width: 600px; margin: 0 auto; padding: 70px 3%;
+        max-width: 600px; margin: 0 auto; padding: 60px 3%;
     }
     footer > div:first-child{
         border-bottom: 1px solid #fff; padding: 50px 0 80px; margin-bottom: 25px;
@@ -219,7 +219,7 @@ header > div nav input[type='checkbox'].mui{
         margin-bottom: 50px;
     }
     footer > div:last-child > ul li{
-        display: inline-block; line-height: 20px;
+        line-height: 20px;
     }
     footer > div:last-child > ul li span {
         font-family: AudiTypewide;
