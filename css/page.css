@@ -998,7 +998,7 @@
         min-height: 100%;
     }
     .Benefit h2{
-        font-size: 42px; font-weight: bold; margin: 95px 0;
+        font-size: 28px; font-weight: bold; margin: 95px 0;
     }
     [class ^= 'popup'],
     [class ^= 'BFimg']{
@@ -1010,10 +1010,17 @@
     [class ^= 'BFimg'].active{
         display: block;
     }
-    [class ^= 'popup'] div,
+    [class ^= 'popup'] div{
+        position: relative;
+        width: 80%; height: 100%;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow-y: auto; 
+    }
     [class ^= 'BFimg'] div{
         position: relative;
-        width: 45%; height: 100%;
+        width: 98%; height: 100%;
         margin: 0 auto;
         background-repeat: no-repeat;
         background-position: center;
