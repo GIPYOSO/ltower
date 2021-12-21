@@ -936,25 +936,24 @@
     /* NoteOnUse fin */
 
     .Visiting_event_move{
-        max-width: 728px; width: 100%; margin: 0 auto; list-style: none;
+        max-width: 480px; width: 100%; margin: 0 auto; list-style: none;
         padding-top: 399px; cursor: pointer;
     }
      #visit_Event, #visit_CloseEvent, .Benefit{
-        max-width: 728px; margin: 0 auto; margin-bottom: 95px;
+        max-width: 480px; margin: 0 auto; margin-bottom: 95px;
     }
     .Visiting_event_move, #visit_event ul{
         list-style: none;
     }
-    .Visiting_event_move::after,
-    .EventList::after, .ClosedEventList::after{
+    .Visiting_event_move::after{
         content: ''; display: block; clear: both;
     }
-    .Visiting_event_move li, .EventList li, .ClosedEventList li{
+    .Visiting_event_move li{
         float: left; width: 50%;
-    } 
+    }
     .Visiting_event_move li{
         text-decoration: none; font-size: 18px; color: #000; font-weight: bold;
-        border: 1px solid #000; height: 80px; display: flex;
+        border: 1px solid #000; height: 80px; display: flex; text-align: center;
         justify-content: center; align-items: center; box-sizing: border-box;
     }
     .Visiting_event_move li.active{
@@ -962,38 +961,37 @@
     }
 
     #visit_Event h2, #visit_CloseEvent h2{
-        font-size: 42px; font-weight: bold; margin-bottom: 60px;
+        font-size: 28px; font-weight: bold; margin-bottom: 60px;
     }
-    .EventList li,
-    .ClosedEventList li{
-        display: flex; align-items: center;
-    }
-    .EventList li img, .ClosedEventList li img{
-        width: 50%;
+    .EventList li, .ClosedEventList li{
+        text-align: center;
     }
     .EventList li:not(:last-child),
     .ClosedEventList li:not(:last-child){
         margin-bottom: 95px;
     }
+    .EventList li img, .ClosedEventList li img{
+        width: 50%; margin-bottom: 10px;
+    }
     .EventList li div:first-of-type,
     .ClosedEventList li div:first-of-type{
-        margin-left: 5.19%; width: 50%;
+        width: 100%;
     }
     .EventList li div:first-of-type h3,
     .ClosedEventList li div:first-of-type h3{
-        font-size: 16px; font-weight: bold; margin-bottom: 20px; line-height: 15px;
+        font-size: 16px; font-weight: bold; margin-bottom: 20px; line-height: 20px;
     }
     .EventList li div p:first-of-type{
         font-size: 14px; font-weight: bold; display: block; margin-bottom: 20px;
     }
     .EventList li div p:last-of-type,
     .ClosedEventList li div p{
-        font-size: 10px; font-weight: normal; display: block; margin-bottom: 20px;
+        font-size: 14px; font-weight: normal; display: block; margin-bottom: 20px;
     }
     .EventList li div:first-of-type a,
     .ClosedEventList li div:first-of-type a{
-        display: block; font-size: 13px; font-weight: normal; cursor: pointer;
-        max-width: 150px; text-align: center; line-height: 40px;
+        font-size: 13px; font-weight: normal; cursor: pointer; display: inline-block;
+        max-width: 150px; width: 100%; text-align: center; line-height: 40px;
     }
     .BenefitBody,
     .BenefitBody section.Benefit{
