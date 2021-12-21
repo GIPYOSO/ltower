@@ -1047,14 +1047,14 @@
         overflow-y: hidden;
     }
     .GroupPgAct{
-        list-style: none; max-width: 728px; width: 100%; margin: 0 auto; list-style: none;
+        list-style: none; max-width: 480px; width: 100%; margin: 0 auto; list-style: none;
         padding-top: 399px; cursor: pointer;
     }
     .GroupPgAct::after{
         content: ''; display: block; clear: both;
     }
     .GroupPgAct li{
-        float: left; width: 33.33%; text-decoration: none; font-size: 18px; color: #000; font-weight: bold;
+        float: left; width: 33.33%; text-decoration: none; font-size: 12px; color: #000; font-weight: bold;
         border: 1px solid #000; height: 80px; text-align: center;
         display: flex; justify-content: center; align-items: center; box-sizing: border-box;
     }
@@ -1062,16 +1062,16 @@
         background-color: #333; height: 80px; color: #fff; border: none;
     }
     #useGuide, #groupSection, #rentalReservation{
-        max-width: 728px; width: 100%; margin: 0 auto; margin-bottom: 95px;
+        max-width: 480px; width: 100%; margin: 0 auto; margin-bottom: 95px;
     }
     #useGuide h2{
-        font-size: 42px; font-weight: bold; margin-bottom: 60px;
+        font-size: 28px; font-weight: bold; margin-bottom: 60px;
     }
     .GroupUseGuide div:not(:last-child){
         margin-bottom: 60px;
     }
     .GroupUseGuide div h3{
-        font-size: 30px; font-weight: bold; margin-bottom: 20px;
+        font-size: 21px; font-weight: bold; margin-bottom: 20px;
     }
     .GroupUseGuide div p{
         font-size: 16px; font-weight: normal; margin-bottom: 10px;
@@ -1099,41 +1099,41 @@
         display: flex;
     }
     .tableup01 div, .tableup02 div, .tableup03 div{
-        position: relative; max-width: 728px; width: 100%; height: 50%; background-color: white;
+        position: relative; max-width: 480px; width: 100%; background-color: white;
         font-size: 50px; display: flex; justify-content: center; align-items: center;
     }
     .tableup01 div h4, .tableup02 div h4, .tableup03 h3{
-        position: absolute; top: -80px; width: 100%; height: 80px; background-color: #333; font-size: 18px; font-weight: bold;
-        color: #fff; line-height: 80px; text-align: center;
+        position: absolute; top: -80px; width: 100%; height: 50px; background-color: #333; font-size: 12px; font-weight: bold;
+        color: #fff; line-height: 15px; text-align: center; padding-top: 30px;
     }
     .tableup01 th, .tableup01 td,
     .tableup02 th, .tableup02 td{
         border: 2px solid #fff;
     }
     .tableup01 div table, .tableup02 div table{
-        max-width: 700px; width: 100%;
+        max-width: 480px; width: 100%;
     }
     .tableup01 div table tbody tr th{
-        height: 80px; background-color: #666; font-size: 16px; font-weight: bold; color: #fff;
+        height: 40px; background-color: #666; font-size: 10px; font-weight: bold; color: #fff;
         vertical-align: middle; text-align: center;
     }
     .tableup01 div table tbody tr td{
-        background-color: #f2f2f2; font-size: 13px; font-weight: normal; text-align: center;
-        height: 60px; vertical-align: middle;
+        background-color: #f2f2f2; font-size: 10px; font-weight: normal; text-align: center;
+        height: 40px; vertical-align: middle;
     }
     .tableup02 div table tbody tr th{
-        height: 95px; width: 50%; background-color: #666; font-size: 16px; font-weight: bold; color: #fff;
+        height: 45px; width: 50%; background-color: #666; font-size: 12px; font-weight: bold; color: #fff;
         vertical-align: middle; text-align: center;
     }
     .tableup02 div table tbody tr td{
-        height: 95px; width: 50%; vertical-align: middle; background-color: #f2f2f2; font-size: 16px; font-weight: normal; text-align: center;
+        height: 45px; width: 50%; vertical-align: middle; background-color: #f2f2f2; font-size: 12px; font-weight: normal; text-align: center;
     }
     .tableup01 div span, .tableup02 div span{
-        position: absolute; display: block; top: -55px; right: 10px; font-size: 35px; color: #fff;
+        position: absolute; display: block; top: -80px; right: 0px; font-size: 35px; color: #fff;
         cursor: pointer;
     }
     #groupSection h2,  #rentalReservation h2{
-        font-size: 42PX; font-weight: bold; margin-bottom: 20px;
+        font-size: 28PX; font-weight: bold; margin-bottom: 20px;
     }
     #groupSection > div h3{
         font-size: 30px; margin-bottom: 20px;
