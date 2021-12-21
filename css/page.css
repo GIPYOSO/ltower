@@ -1370,25 +1370,25 @@
         margin-bottom: 175px;
     }
     .service_move{
-        list-style: none; max-width: 728px; width: 100%; margin: 0 auto;
+        list-style: none; max-width: 480px; width: 100%; margin: 0 auto;
         padding-top: 399px; cursor: pointer;
     }
     .service_move::after{
         content: ''; display: block; clear: both;
     }
     .service_move li{
-        float: left; width: 33.33%; font-size: 16px; color: #000; font-weight: bold;
-        border: 1px solid #000; height: 80px;
+        float: left; width: 33.33%; font-size: 12px; color: #000; font-weight: bold;
+        border: 1px solid #000; height: 80px; text-align: center;
         display: flex; justify-content: center; align-items: center; box-sizing: border-box;
     }
     .service_move li.active{
         background-color: #333; color: #fff;
     }
     .inquirySection, .customerSection, .findSection{
-        max-width: 728px; margin: 0 auto; width: 100%; margin-bottom: 95px; display: none;
+        max-width: 480px; margin: 0 auto; width: 100%; margin-bottom: 95px; display: none;
     }
     .inquirySection h2, .customerSection h2, .findSection h2{
-        font-size: 42px; margin-bottom: 95px;
+        font-size: 28px; margin-bottom: 95px;
     }
     .tableForm{
         max-width: 1448px; width: 100%; margin-bottom: 60px;
@@ -1406,17 +1406,17 @@
         padding: 20px 0;
     }
     .tableForm tr td select{
-        height: 60px; font-size: 21px;
+        height: 60px; font-size: 18px;
     }
     .tableForm tr th label{
-        font-size: 30px; font-weight: bold;
+        font-size: 21px; font-weight: bold;
     }
     .tableForm tr td input{
         height: 54px; font-size: 21px; line-height: 60px; vertical-align: middle;
     }
     .tableForm tr td select#inquiry_type,
     .tableForm tr td select#reply{
-        width: 43.75%;
+        width: 98%;
     }
     .tableForm tr td input[type='radio']{
         width: 3%; 
@@ -1426,25 +1426,25 @@
     }
     .tableForm tr td #inquiry_type,
     .tableForm tr td #age{
-        width: 27%; margin-right: 3%;
+        width: 98%; margin-right: 3%;
     }
     .tableForm tr td input#emailID,
     .tableForm tr td input#emailAddress{
-        width: 36%; margin-bottom: 10px;
+        width: 94%; margin-bottom: 10px;
     }
     .tableForm tr td input#userName,
     .tableForm tr td input#phone_number{
-        width: 43.19%;
+        width: 93%;
     }
     .tableForm tr td span{
-        margin: 0 2%; font-size: 21px;
+        margin: 0 2% 10px; font-size: 21px; display: block;
     }
     .tableForm tr td select#domain{
-        width: 40%;
+        width: 97%;
     }
     .tableForm tr td input#title_box,
     .tableForm tr td textarea{
-        width: 95%;
+        width: 94%;
     }
     .tableForm tr td textarea{
         height: 300px; font-size: 21px;
@@ -1465,32 +1465,32 @@
         margin-bottom: 30px;
     }
     .Collection_personal h3{
-        font-size: 30px; margin-bottom: 20px;
+        font-size: 21px; margin-bottom: 20px;
     }
     .Collection_personal p{
         border: 1px solid #000; box-sizing: border-box; padding: 1%; margin-bottom: 20px;
     }
     .Collection_personal p strong{
-        margin-bottom: 10px; font-size: 21px; display: block;
+        margin-bottom: 10px; font-size: 18px; display: block;
     }
     .Collection_personal p span{
-        display: block; margin-top: 10px; font-size: 16px; line-height: 35px;
+        display: block; margin-top: 10px; font-size: 14px; line-height: 20px;
     }
     .Collection_personal p span mark{
-        display: block; font-size: 30px; font-weight: bold; font-style: normal;
+        display: block; font-size: 21px; font-weight: bold; font-style: normal;
     }
     .submit{
         text-align: center;
     }
     .submit input[type="submit"],
     .submit input[type="reset"]{
-        width: 17%; height: 50px; background-color: #333; border: none; font-size: 18px;
+        width: 40%; height: 50px; background-color: #333; border: none; font-size: 18px;
         color: #fff; cursor: pointer;
     }
     /* inquirySection */
 
     .customerSection p{
-        font-size: 30px; font-weight: bold; margin-bottom: 20px;
+        font-size: 21px; font-weight: bold; margin-bottom: 20px;
     }
     .customerSection div{
         margin-bottom: 95px;
