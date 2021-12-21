@@ -1334,16 +1334,22 @@
     /* Notice fin */
 
     .faqPg{
-        max-width: 728px; margin: 0 auto;
+        max-width: 480px; margin: 0 auto;
     }
     .faqPg h2{
-        font-size: 42px; margin-bottom: 95px;
+        font-size: 28px; margin-bottom: 95px;
     }
     .faqPg ul li div:first-of-type{
-        width: 90%;
+        width: 88%;
+    }
+    .faqPg ul li div strong{
+        font-size: 12px;
     }
     .faqPg ul li div:first-of-type p{
         display: inline-block; margin-right: 3.5%;
+    }
+    .faqPg ul li div:last-of-type{
+        padding-top: 2%;
     }
     .faqPg ul li div:last-of-type p{
         display: inline-block;
@@ -1352,7 +1358,7 @@
         padding-left: 2%;
     }
     .faqPg ul li div:last-of-type p{
-        font-size: 14px;
+        font-size: 12px;
     }
     .faqPg ul li div:last-of-type p:not(:first-of-type){
         padding-left: 5.3%;
