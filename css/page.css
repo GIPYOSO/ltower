@@ -1668,17 +1668,17 @@
     }
     .terms_move li{
         float: left; width: 50%; font-size: 16px; color: #000; font-weight: bold;
-        border: 1px solid #000; height: 80px; display: flex;
+        border: 1px solid #000; height: 80px; display: flex; text-align: center;
         justify-content: center; align-items: center; box-sizing: border-box;
     }
     .terms_move li.active{
         background-color: #333; color: #fff;
     }
     .websiteTermsSection, .Rejection{
-        max-width: 728px; width: 100%; margin: 0 auto; margin-bottom: 95px;
+        max-width: 460px; width: 100%; margin: 0 auto; margin-bottom: 95px;
     }
     .websiteTermsSection h2, .Rejection h2{
-        font-size: 42px; margin-bottom: 95px;
+        font-size: 28px; margin-bottom: 95px;
     }
     .websiteTermsSection{
         display: none;
@@ -1693,15 +1693,16 @@
         content: ''; display: block; clear: both;
     }
     [class ^= 'Chapter_move'] li{
-        float: left; width: 50%; height: 50px; border: 1px solid #333; font-size: 14px;
-        box-sizing: border-box; padding-left: 1%; line-height: 50px; cursor: pointer;
+        float: left; width: 50%; height: 50px; border: 1px solid #333; font-size: 10px;
+        box-sizing: border-box; padding-left: 1%; cursor: pointer; display: flex; text-align: center;
+        align-items: center; justify-content: center;
     }
     [class ^= 'Chapter_move'] li.active{
         background-color: #333; color: #fff;
     }
     .websiteTermsSection div h3,
     .Rejection strong{
-        font-size: 30px; margin-bottom: 60px; display: block;
+        font-size: 21px; margin-bottom: 60px; display: block;
     }
     .websiteTermsSection div ul,
     .websiteTermsSection div ul > li ol{
@@ -1711,11 +1712,11 @@
         margin-bottom: 60px;
     }
     .websiteTermsSection div ul > li h4{
-        font-size: 21px; margin-bottom: 20px;
+        font-size: 18px; margin-bottom: 20px;
     }
     .websiteTermsSection div ul > li p,
     .websiteTermsSection div ul > li ol li{
-        font-size: 16px; margin-bottom: 10px;
+        font-size: 14px; margin-bottom: 10px;
     }
     .websiteTermsSection > div{
         display: none;
