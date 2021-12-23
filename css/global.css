@@ -9,7 +9,7 @@ section.Connect > figure figcaption h2, section.snsArea h2,
 .NoteOnUse h3, .NoteOnUse h4, #visitingPg2 h2, #visitingPg3 h2, #visitingPg4 h2, #visit_Event h2, .Visiting_event_move li, .EventList li div h3, #visit_CloseEvent h2, .ClosedEventList li div:first-of-type h3,
 .GroupPgAct li, #useGuide h2, .GroupUseGuide div h3, .tableup01 div h4, .tableup02 div h4, #groupSection h2, #groupSection div h3, #rentalReservation h2, .Lounge123 h2, .Lounge123 h3,
 .appmove, .noticePg h2, .faqPg h2, .faqPg ul li div:first-of-type p, .faqPg ul li div:last-of-type span, .service_move li, .inquirySection h2, .customerSection h2, .findSection h2, .inquirySection div h3,
-.Benefit h2, .customerSection p, .customerSection div:last-of-type form fieldset legend, .tableForm tr td .gender, .findSection .foundbox span, .tableup03 h3, .terms_move li, .websiteTermsSection h2,
+.Benefit h2, .customerSection p, .customerSection div:last-of-type form fieldset legend, .tableForm legend, .tableForm tr td .gender, .findSection .foundbox span, .tableup03 h3, .terms_move li, .websiteTermsSection h2,
 .websiteTermsSection div h3, .Rejection h2, .Rejection strong{
     font-family: AudiTypeExtended;
 }
@@ -25,7 +25,7 @@ section.nameArea div, .direction p, .gallerypg > ul li div a, section.wtc h2, .a
 .tableup01 div table tbody tr th, .tableup01 div table tbody tr td, .tableup02 div table tbody tr th, .tableup02 div table tbody tr td,
 #groupSection div ol, #groupSection div a, .Lounge123 div table tr td, #appPg h2, #appPg div h3, #appPg div p, #appPg div div a, #myPg h2,
 #myPg p, #myPg button, #myPg div a, .noticePg strong, .tableForm tr td:first-child, .tableForm tr td:last-child select, .tableForm tr td:last-child input, .tableForm tr td:last-child span,
-.tableForm tr td textarea, .tableForm tr:nth-of-type(2) td label,.tableForm tr td label.men, .tableForm tr td label.women .inquirySection div p,
+.tableForm tr td textarea, .tableForm tr th label, .tableForm tr:nth-of-type(2) td label,.tableForm tr td label.men, .tableForm tr td label.women .inquirySection div p,
 .inquirySection input[type="submit"], .findSection .foundbox #minRange, .findSection .foundbox #maxRange, .findSection .foundbox select, .findSection .foundbox input[type='reset'],
 .tableup03 div table tbody tr th, .findSection tr, [class ^= 'Chapter_move'] li, .websiteTermsSection div ul li, .websiteTermsSection div ul > li h4, .Rejection p{
     font-family: AudiTypeWide;

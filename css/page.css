@@ -1102,7 +1102,7 @@
         position: relative; max-width: 480px; width: 100%; background-color: white;
         font-size: 50px; display: flex; justify-content: center; align-items: center;
     }
-    .tableup01 div h4, .tableup02 div h4, .tableup03 h3{
+    .tableup01 div h4, .tableup02 div h4{
         position: absolute; top: -80px; width: 100%; height: 50px; background-color: #333; font-size: 12px; font-weight: bold;
         color: #fff; line-height: 15px; text-align: center; padding-top: 30px;
     }
@@ -1390,9 +1390,6 @@
     .inquirySection h2, .customerSection h2, .findSection h2{
         font-size: 28px; margin-bottom: 95px;
     }
-    .tableForm{
-        max-width: 1448px; width: 100%; margin-bottom: 60px;
-    }
     .tableForm tr th, .tableForm tr td{
         border-top: 1px solid #000; vertical-align: middle;
     }
@@ -1400,33 +1397,36 @@
         border-bottom: 1px solid #000;
     }
     .tableForm tr th{
-        padding: 30px 2%; text-align: left;
+        padding: 30px 2%; text-align: left; max-width: 110px;
     }
     .tableForm tr td{
         padding: 20px 0;
     }
     .tableForm tr td select{
-        height: 60px; font-size: 18px;
+        height: 60px; font-size: 14px;
     }
     .tableForm tr th label{
-        font-size: 21px; font-weight: bold;
+        font-size: 16px; font-weight: bold;
     }
     .tableForm tr td input{
-        height: 54px; font-size: 21px; line-height: 60px; vertical-align: middle;
+        height: 40px; font-size: 14px; line-height: 40px; vertical-align: middle;
     }
     .tableForm tr td select#inquiry_type,
     .tableForm tr td select#reply{
         width: 98%;
     }
     .tableForm tr td input[type='radio']{
-        width: 3%; 
+        width: 10%; display: inline-block;
     }
     .tableForm tr:nth-of-type(2) td label{
-        margin-right: 2%; font-size: 21px;  vertical-align: middle;
+        font-size: 14px; display: block;
     }
     .tableForm tr td #inquiry_type,
-    .tableForm tr td #age{
-        width: 98%; margin-right: 3%;
+    .tableForm tr td select#age{
+        width: 98%; display: block;
+    }
+    .tableForm tr td select#service_type{
+        width: 92%;
     }
     .tableForm tr td input#emailID,
     .tableForm tr td input#emailAddress{
@@ -1437,10 +1437,13 @@
         width: 93%;
     }
     .tableForm tr td span{
-        margin: 0 2% 10px; font-size: 21px; display: block;
+        margin: 0 0 2% 10px; font-size: 21px; display: block;
     }
     .tableForm tr td select#domain{
         width: 97%;
+    }
+    .tableForm tr td input#calendar{
+        width: 92%; font-size: 14px;
     }
     .tableForm tr td input#title_box,
     .tableForm tr td textarea{
@@ -1450,16 +1453,20 @@
         height: 300px; font-size: 21px;
     }
     .tableForm tr td label.gender{
-        font-size: 30px; font-weight: bold; margin-right: 1%;  vertical-align: middle;
+        font-size: 15px; font-weight: bold; margin-right: 1%; display: block;
+        margin-top: 20px;
     }
     .tableForm tr td label.men,
     .tableForm tr td label.women{
-        font-size: 14px; margin-right: 4.5%;  vertical-align: middle;
+        font-size: 13px; margin-right: 1%; vertical-align: middle;
     }
     .tableForm tr td input#attachedFile,
     .tableForm tr td input#attachedFile2,
     .tableForm tr td input#attachedFile3{
-        padding-left: 8%;
+        padding-left: 8%; width: 80%; font-size: 12px;
+    }
+    .tableForm tr td.filecaption{
+        font-size: 12px;
     }
     .Collection_personal{
         margin-bottom: 30px;
@@ -1489,6 +1496,9 @@
     }
     /* inquirySection */
 
+    .tableForm legend{
+        font-size: 21px; font-weight: bold; margin-bottom: 60px;
+    }
     .customerSection p{
         font-size: 21px; font-weight: bold; margin-bottom: 20px;
     }
@@ -1500,7 +1510,7 @@
     }
     .customerSection div:first-of-type div{
         float: left; border: 1px solid #000; box-sizing: border-box;
-        width: 49%; height: 377px;
+        width: 49%; height: 200px;
     }
     .customerSection div:first-of-type div{
         display: flex; justify-content: center; align-items: center;
@@ -1510,11 +1520,11 @@
     }
     .customerSection div:first-of-type div a{
         text-decoration: none; display: block; font-size: 16px; color: #fff; border: 1px solid #333;
-        box-sizing: border-box; width: 34%; height: 100px; line-height: 100px;  text-align: center;
+        box-sizing: border-box; width: 85%; height: 65px; line-height: 30px;  text-align: center;
         background-color: #333;
     }
     .customerSection div:last-of-type form fieldset legend{
-        font-size: 42px; font-weight: bold; margin-bottom: 95px;
+        font-size: 21px; font-weight: bold; margin-bottom: 95px;
     }
     /* customerSection */
 
@@ -1527,29 +1537,29 @@
         display: flex;
     }
     .tableup03 div{
-        position: relative; max-width: 728px; width: 100%; height: 50%; background-color: white;
-        font-size: 50px; display: flex; justify-content: center; align-items: center;
+        position: relative; max-width: 480px; width: 100%; height: 70%; background-color: white;
+        font-size: 25px; display: flex; justify-content: center; align-items: center;
     }
     .tableup03 h3{
-        position: absolute; top: -80px; width: 100%; height: 80px; background-color: #333; font-size: 30px; font-weight: bold;
-        color: #fff; line-height: 80px; text-align: center;
+        position: absolute; top: -60px; width: 100%; height: 60px; background-color: #333;
+        font-size: 2vh; color: #fff; line-height: 60px; text-align: center;
     }
     .tableup03 td{
         border: 2px solid #fff;
     }
     .tableup03 div table{
-        max-width: 630px; width: 100%;
+        max-width: 480px; width: 100%;
     }
     .tableup03 div table tbody tr th{
-        height: 80px; background-color: #666; font-size: 20px; font-weight: bold; color: #fff;
+        background-color: #666; font-size: 12px; font-weight: bold; color: #fff;
         vertical-align: middle; text-align: center; width: 50%;
     }
     .tableup03 div table tbody tr td{
-        background-color: #f2f2f2; font-size: 16px; font-weight: normal; text-align: center;
-        height: 110px !important; vertical-align: middle;
+        background-color: #f2f2f2; font-size: 11px; font-weight: normal; text-align: center;
+        height: 120px !important; vertical-align: middle;
     }
     .tableup03 h3 a{
-        position: absolute; display: block; top: 0; right: 1.7%; font-size: 50px; color: #fff;
+        position: absolute; display: block; top: 0; right: 1.7%; font-size: 30px; color: #fff;
         cursor: pointer;
     }
     .FoundPopup{
@@ -1558,29 +1568,28 @@
     .FoundPopup a{
         position: absolute; right: 0; display: block;
     }
-
     .findSection .foundbox{
-        width: 100%; height: 140px; line-height: 140px; text-align: center; background-color: #f2f2f2;
+        width: 100%; height: 140px; line-height: 70px; text-align: center; background-color: #f2f2f2;
         margin-bottom: 10px;
     }
     .findSection .foundbox #minRange,
     .findSection .foundbox #maxRange{
-        width: 18%; height: 50px; font-size: 16px; border: none; padding: 0 1%;
+        width: 44%; height: 50px; font-size: 12px; border: none; padding: 0 1%;
     }
     .findSection .foundbox span{
-        margin: 0 0.6%; font-size: 30px; font-weight: bold; vertical-align: middle;
+        margin: 0 0.6%; font-size: 10px; font-weight: bold; vertical-align: middle;
     }
     .findSection .foundbox select{
-        width: 18%; height: 50px; margin-left: 2.7%; font-size: 16px; border: none;
+        width: 40%; height: 50px; margin-left: 2.7%; font-size: 16px; border: none;
     }
     .findSection .foundbox input[type='submit']{
         background-image: url('../images/search.png'); background-repeat: no-repeat;
-        background-position: center; width: 7%; height: 50px; text-indent: -9999px;
+        background-position: center; width: 17%; height: 50px; text-indent: -9999px;
         background-color: #fff; cursor: pointer; box-sizing: border-box; margin-left: 2.7%;
     }
     .findSection .foundbox input[type='reset']{
-        width: 15.6%; height: 50px; border: none; background-color: #333; color: #fff;
-        cursor: pointer; margin-left: 2.7%; font-size: 16px;
+        width: 30%; height: 50px; border: none; background-color: #333; color: #fff;
+        cursor: pointer; margin-left: 2.7%; font-size: 12px;
     }
     .findSection > ul{
         margin-bottom: 60px; list-style: none;
@@ -1601,7 +1610,7 @@
         border-top: 1px solid #000; text-align: center; height: 80px;
     }
     .findSection tr:first-of-type{
-        background-color: #666; color: #fff; font-size: 20px;
+        background-color: #666; color: #fff; font-size: 10px;
     }
     .findSection tr:last-of-type{
         border-bottom: 1px solid #000;
@@ -1610,7 +1619,7 @@
         vertical-align: middle;
     }
     .findSection tr td{
-        font-size: 16px;
+        font-size: 10px;
     }
 
     .paging{
@@ -1618,16 +1627,16 @@
         text-align: center; position: relative; 
     }
     .paging > a{
-        position: absolute; border: 1px solid #333; width: 40px; height: 40px;
+        position: absolute; border: 1px solid #333; width: 18px; height: 20px;
         box-sizing: border-box; background-position: center; background-repeat: no-repeat;
     }
     .paging > a:first-of-type{
         background-image: url('../images/chevron_left.png');
-        left: 12%;
+        left: 1%;
     }
     .paging > a:last-of-type{
         background-image: url('../images/chevron_right.png');
-        right: 12%;
+        right: 1%;
     }
     .paging ol{
         list-style: none; text-align: center;
@@ -1636,9 +1645,8 @@
         display: inline-block;
     }
     .paging ol li a{
-        display: block; text-decoration: none; color: #333; border: 1px solid #333;
-        box-sizing: border-box; background-color: #fff; width: 40px; height: 40px;
-        line-height: 40px;
+        display: block; text-decoration: none; color: #333; border: 1px solid #333; font-size: 10px;
+        box-sizing: border-box; background-color: #fff; width: 18px; line-height: 18px;
     }
     .paging ol li.active a{
         background-color: #333; color: #fff;
@@ -3137,9 +3145,6 @@
     .inquirySection h2, .customerSection h2, .findSection h2{
         font-size: 42px; margin-bottom: 95px;
     }
-    .tableForm{
-        max-width: 1448px; width: 100%; margin-bottom: 60px;
-    }
     .tableForm tr th, .tableForm tr td{
         border-top: 1px solid #000; vertical-align: middle;
     }
@@ -3163,7 +3168,7 @@
     }
     .tableForm tr td select#inquiry_type,
     .tableForm tr td select#reply{
-        width: 43.75%;
+        width: 90%;
     }
     .tableForm tr td input[type='radio']{
         width: 3%; 
@@ -3173,7 +3178,7 @@
     }
     .tableForm tr td #inquiry_type,
     .tableForm tr td #age{
-        width: 27%; margin-right: 3%;
+        width: 98%; margin-right: 3%;
     }
     .tableForm tr td input#emailID,
     .tableForm tr td input#emailAddress{
@@ -3236,6 +3241,9 @@
     }
     /* inquirySection */
 
+    .tableForm legend{
+        font-size: 42px; font-weight: bold; margin-bottom: 95px;
+    }
     .customerSection p{
         font-size: 30px; font-weight: bold; margin-bottom: 20px;
     }
@@ -4855,9 +4863,6 @@
     .inquirySection h2, .customerSection h2, .findSection h2{
         font-size: 42px; margin-bottom: 95px;
     }
-    .tableForm{
-        max-width: 1440px; width: 100%; margin-bottom: 60px;
-    }
     .tableForm tr th, .tableForm tr td{
         border-top: 1px solid #000; vertical-align: middle;
     }
@@ -4881,7 +4886,7 @@
     }
     .tableForm tr td select#inquiry_type,
     .tableForm tr td select#reply{
-        width: 630px;
+        width: 90%;
     }
     .tableForm tr td input[type='radio']{
         width: 3%; 
@@ -4891,7 +4896,7 @@
     }
     .tableForm tr td #inquiry_type,
     .tableForm tr td #age{
-        width: 250px; margin-right: 14.58%;
+        width: 98%; margin-right: 14.58%;
     }
     .tableForm tr td input#userName,
     .tableForm tr td input#phone_number{
@@ -4945,6 +4950,9 @@
     }
     /* inquirySection */
 
+    .tableForm legend{
+        font-size: 42px; font-weight: bold; margin-bottom: 95px;
+    }
     .customerSection p{
         font-size: 30px; font-weight: bold; margin-bottom: 20px;
     }
@@ -4973,7 +4981,6 @@
         font-size: 42px; font-weight: bold; margin-bottom: 95px;
     }
     /* customerSection */
-
     .tableup03{
         position: fixed; left: 0; top: 0; width: 100%; height: 100vh; background-color: rgba(0, 0, 0, 0.5);
         box-sizing: border-box; flex-shrink: 0; align-items: center; justify-content: center;
