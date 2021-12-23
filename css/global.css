@@ -67,7 +67,7 @@ header > div nav input[type='checkbox'].mui{
         margin-bottom: 3px;
     }
     header > div nav label.mui +input[type='checkbox']#line-wrap:checked + ul{
-        height: 700px;
+        height: 740px;
     }
     header > div nav ul{
         height: 0; overflow: hidden; transition: 1s ease-in-out;
