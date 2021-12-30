@@ -26,7 +26,7 @@
         text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
     }
     .slideB div.slide{
-        position: absolute; width: 100%; text-align: center; bottom: 110px;
+        position: absolute; width: 100%; text-align: center; bottom: 200px;
     }
     .slideB div.slide h2{
         font-size: 50px; color: #fff; margin-bottom: 20px;
@@ -235,7 +235,7 @@
        max-width: 300px; width: 100%;
     }
     section.nameArea div{
-        margin-left: 25px; padding-top: 5%;
+        margin-left: 10px; padding-top: 5%;
     }
 
     section.nameArea div h4{
@@ -265,22 +265,19 @@
     .gallerypg > ul{
         margin-bottom: 95px;
     }
-    .gallerypg > ul::after{
-        content: ''; display: block; clear: both;
-    }
     .gallerypg > ul li{
-        height: 460px; list-style: none; float: left; width: 32%; text-align: center;
+        height: 460px; list-style: none; width: 100%; text-align: center;
         display: flex; justify-content: center; align-items: center;
     }
     .gallerypg > ul li:first-child{background: url('../images/gallery_1.jpg') no-repeat, rgba(0, 0, 0, 0.3); background-blend-mode: multiply;  margin-bottom: 20px;}
-    .gallerypg > ul li:nth-child(2){background: url('../images/gallery_2.jpg') no-repeat, rgba(0, 0, 0, 0.3); background-blend-mode: multiply; margin-left: 2%;  margin-bottom: 20px;}
-    .gallerypg > ul li:nth-child(3){background: url('../images/gallery_3.jpg') no-repeat, rgba(0, 0, 0, 0.3); background-blend-mode: multiply; margin-left: 2%;  margin-bottom: 20px;}
+    .gallerypg > ul li:nth-child(2){background: url('../images/gallery_2.jpg') no-repeat, rgba(0, 0, 0, 0.3); background-blend-mode: multiply;  margin-bottom: 20px;}
+    .gallerypg > ul li:nth-child(3){background: url('../images/gallery_3.jpg') no-repeat, rgba(0, 0, 0, 0.3); background-blend-mode: multiply;  margin-bottom: 20px;}
     .gallerypg > ul li:nth-child(4){background: url('../images/gallery_4.jpg') no-repeat, rgba(0, 0, 0, 0.3); background-blend-mode: multiply;  margin-bottom: 20px;}
-    .gallerypg > ul li:nth-child(5){background: url('../images/gallery_5.jpg') no-repeat, rgba(0, 0, 0, 0.3); background-blend-mode: multiply; margin-left: 2%; margin-bottom: 20px;}
-    .gallerypg > ul li:nth-child(6){background: url('../images/gallery_6.jpg') no-repeat, rgba(0, 0, 0, 0.3); background-blend-mode: multiply; margin-left: 2%; margin-bottom: 20px;}
-    .gallerypg > ul li:nth-child(7){background: url('../images/gallery_7.jpg') no-repeat, rgba(0, 0, 0, 0.3); background-blend-mode: multiply; }
-    .gallerypg > ul li:nth-child(8){background: url('../images/gallery_8.jpg') no-repeat, rgba(0, 0, 0, 0.3); background-blend-mode: multiply; margin-left: 2%; }
-    .gallerypg > ul li:last-child{background: url('../images/gallery_9.jpg') no-repeat, rgba(0, 0, 0, 0.3); background-blend-mode: multiply; margin-left: 2%; }
+    .gallerypg > ul li:nth-child(5){background: url('../images/gallery_5.jpg') no-repeat, rgba(0, 0, 0, 0.3); background-blend-mode: multiply; margin-bottom: 20px;}
+    .gallerypg > ul li:nth-child(6){background: url('../images/gallery_6.jpg') no-repeat, rgba(0, 0, 0, 0.3); background-blend-mode: multiply; margin-bottom: 20px;}
+    .gallerypg > ul li:nth-child(7){background: url('../images/gallery_7.jpg') no-repeat, rgba(0, 0, 0, 0.3); background-blend-mode: multiply; margin-bottom: 20px;}
+    .gallerypg > ul li:nth-child(8){background: url('../images/gallery_8.jpg') no-repeat, rgba(0, 0, 0, 0.3); background-blend-mode: multiply; margin-bottom: 20px;}
+    .gallerypg > ul li:last-child{background: url('../images/gallery_9.jpg') no-repeat, rgba(0, 0, 0, 0.3); background-blend-mode: multiply; margin-bottom: 20px;}
     .gallerypg > ul li div{
         width: 100%;
     }
@@ -558,7 +555,7 @@
         position: relative; max-width: 1920px; margin: 0 auto; margin-bottom: 30px;
     }
     .grayBox{
-        position: absolute; max-width: 1920px; margin: 0 auto; height: 100px; width: 100%;
+        position: absolute; max-width: 1920px; margin: 0 auto; background-color: rgba(0, 0, 0, 0.5); width: 100%;
         z-index: 1; bottom: 0;
     }
     .grayBox div, .bridgePg, .birdgeSection{
@@ -594,10 +591,10 @@
         margin-bottom: 95px;
     }
     .grayBox div h2{
-        font-size: 16px; font-weight: bold; color: #fff; line-height: 50px; text-indent: -9999px;
+        font-size: 16px; font-weight: bold; color: #fff; line-height: 30px;
     }
     .grayBox div p{
-        font-size: 12px; font-weight: normal; color: #fff; text-indent: -9999px;
+        font-size: 12px; font-weight: normal; color: #fff; line-height: 15px;
     }
     .bridgePg h3, .birdgeSection h3{
         font-size: 21px; font-weight: bold;
@@ -619,12 +616,6 @@
     }
     .hyphenP{
         color: #333; line-height: 20px;
-    }
-    .bridgePg::after{
-        content: ''; display: block; clear: both;
-    }
-    .bridgePg .hyphenP{
-        float: left;
     }
     .birdgeSection{
         margin-bottom: 95px;
@@ -1364,7 +1355,7 @@
         font-size: 12px;
     }
     .faqPg ul li div:last-of-type p:not(:first-of-type){
-        padding-left: 5.3%;
+        padding-left: 2.3%;
     }
 
     /* FAQ fin */
@@ -1758,7 +1749,7 @@
     }
     .slideB div.slide{
         position: absolute; width: 100%; text-align: center;
-        bottom: 110px;
+        bottom: 200px;
     }
     .slideB div.slide h2{
         font-size: 60px; color: #fff; margin-bottom: 20px;
@@ -3117,10 +3108,10 @@
         padding-left: 2%;
     }
     .faqPg ul li div:last-of-type p{
-        font-size: 14px;
+        font-size: 12px; width: 90%;
     }
     .faqPg ul li div:last-of-type p:not(:first-of-type){
-        padding-left: 5.3%;
+        padding-left: 2.3%;
     }
 
     /* FAQ fin */
@@ -3505,7 +3496,7 @@
     }
     .slideB div.slide{
         position: absolute; width: 100%; text-align: center;
-        bottom: 110px;
+        bottom: 240px;
     }
     .slideB div.slide h2{
         font-size: 66px; color: #fff; margin-bottom: 20px;
