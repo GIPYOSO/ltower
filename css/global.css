@@ -94,7 +94,7 @@ header > div nav input[type='checkbox'].mui{
         font-size: 12px; font-weight: normal;
     }
     header > div > div{
-        display: inline-block; line-height: 50px; width: 3%; margin-left: 9%;
+        display: inline-block; line-height: 50px; width: 3%; margin-left: 15%;
         position: relative;
     }
     header > div > div button{
