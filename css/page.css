@@ -4904,13 +4904,13 @@
     }
     .tableForm tr td input#userName,
     .tableForm tr td input#phone_number{
-        width: 50%;
+        width: 20%;
     }
     .tableForm tr td span{
         margin: 0 2%; font-size: 21px;
     }
     .tableForm tr td select#domain{
-        width: 200px;
+        width: 264px;
     }
     .tableForm tr td input#title_box,
     .tableForm tr td textarea{
