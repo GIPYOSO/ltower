@@ -609,10 +609,10 @@
         margin-bottom: 10px;
     }
     .bridgePg p{
-        font-size: 16px; font-weight: normal;
+        font-size: 14px; font-weight: normal;
     }
     .starP{
-        line-height: 20px; font-size: 14px; font-weight: normal; color: #666; list-style: none;
+        line-height: 20px; font-size: 12px; font-weight: normal; color: #666; list-style: none;
     }
     .hyphenP{
         color: #333; line-height: 20px;
@@ -1517,7 +1517,7 @@
     }
     .customerSection div:first-of-type div a{
         text-decoration: none; display: block; font-size: 16px; color: #fff; border: 1px solid #333;
-        box-sizing: border-box; width: 85%; height: 65px; line-height: 30px;  text-align: center;
+        box-sizing: border-box; width: 63%; line-height: 30px;  text-align: center;
         background-color: #333;
     }
     .customerSection div:last-of-type form fieldset legend{
@@ -3266,7 +3266,7 @@
     }
     .customerSection div:first-of-type div a{
         text-decoration: none; display: block; font-size: 16px; color: #fff; border: 1px solid #333;
-        box-sizing: border-box; width: 34%; height: 100px; line-height: 100px;  text-align: center;
+        box-sizing: border-box; width: 55%; height: 100px; line-height: 100px;  text-align: center;
         background-color: #333;
     }
     .customerSection div:last-of-type form fieldset legend{
