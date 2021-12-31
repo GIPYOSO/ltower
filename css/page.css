@@ -1384,6 +1384,9 @@
     .inquirySection h2, .customerSection h2, .findSection h2{
         font-size: 28px; margin-bottom: 95px;
     }
+    .tableForm{
+        margin-bottom: 75px;
+    }
     .tableForm tr th, .tableForm tr td{
         border-top: 1px solid #000; vertical-align: middle;
     }
@@ -1441,7 +1444,7 @@
     }
     .tableForm tr td input#title_box,
     .tableForm tr td textarea{
-        width: 94%;
+        width: 94%; font-size: 14px;
     }
     .tableForm tr td textarea{
         height: 300px; font-size: 21px;
@@ -3139,6 +3142,9 @@
     }
     .inquirySection h2, .customerSection h2, .findSection h2{
         font-size: 42px; margin-bottom: 95px;
+    }
+    .tableForm{
+        margin-bottom: 75px;
     }
     .tableForm tr th, .tableForm tr td{
         border-top: 1px solid #000; vertical-align: middle;
@@ -4858,6 +4864,9 @@
     .inquirySection h2, .customerSection h2, .findSection h2{
         font-size: 42px; margin-bottom: 95px;
     }
+    .tableForm{
+        max-width: 1920px; width: 100%; margin-bottom: 75px;
+    }
     .tableForm tr th, .tableForm tr td{
         border-top: 1px solid #000; vertical-align: middle;
     }
@@ -4881,7 +4890,7 @@
     }
     .tableForm tr td select#inquiry_type,
     .tableForm tr td select#reply{
-        width: 90%;
+        width: 30%;
     }
     .tableForm tr td input[type='radio']{
         width: 3%; 
@@ -4891,11 +4900,11 @@
     }
     .tableForm tr td #inquiry_type,
     .tableForm tr td #age{
-        width: 98%; margin-right: 14.58%;
+        width: 30%; margin-right: 12%;
     }
     .tableForm tr td input#userName,
     .tableForm tr td input#phone_number{
-        width: 622px;
+        width: 50%;
     }
     .tableForm tr td span{
         margin: 0 2%; font-size: 21px;
