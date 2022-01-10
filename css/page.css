@@ -1007,7 +1007,7 @@
         margin: 0 auto;
         background-repeat: no-repeat;
         background-position: center;
-        overflow-y: auto; 
+        overflow-y: auto;
     }
     [class ^= 'BFimg'] div{
         position: relative;
