@@ -3493,7 +3493,7 @@
         position: relative;
     }
     .slideB ol li.slidbg1{
-        background-color:rgba(0, 0, 0, 0.3); height: 893px;
+        background: url('../images/main_bg_1.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
         text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
     }
     .slideB ol li.slidbg2{
