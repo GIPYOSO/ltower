@@ -617,10 +617,14 @@ header > div nav input[type='checkbox'].mui{
     footer > div:last-child > ul li{
         display: inline-block; line-height: 20px;
     }
+    footer > div:last-child > ul li:first-child{
+        margin-right: 5%;
+    }
     footer > div:last-child > ul li span {
         font-family: AudiTypeExtended;
         font-weight: normal; font-size: 12px; color: #fff;
     }
+    footer > div:last-child > ul li:not(:first-child),
     footer > div:last-child > ul li:not(:last-child){
         margin-right: 3%;
     }
