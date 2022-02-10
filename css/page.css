@@ -3492,12 +3492,8 @@
     .slideB ol li{
         position: relative;
     }
-    .slideB ol li.slidbg1 img{
-        background:rgba(0, 0, 0, 0.3); height: 885px;
-        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
-    }
+    .slideB ol li.slidbg1 img,
     .slideB ol li.slidbg2 img{
-        background:rgba(0, 0, 0, 0.3); height: 885px;
         text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
     }
     .slideB div.slide{
