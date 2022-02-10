@@ -16,7 +16,7 @@
     .slideB .bx-wrapper .bx-pager.bx-default-pager a:hover,
     .slideB .bx-wrapper .bx-pager.bx-default-pager a.active,
     .slideB .bx-wrapper .bx-pager.bx-default-pager a:focus {background: #fff;}
-    .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 40px; padding-top: none;}
+    .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 10px; padding-top: none;}
     .slideB ol li{
         position: relative;
     }
@@ -26,13 +26,13 @@
         text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
     }
     .slideB div.slide{
-        position: absolute; width: 100%; text-align: center; bottom: 80px;
+        position: absolute; width: 100%; text-align: center; bottom: 32px;
     }
     .slideB div.slide h2{
-        font-size: 21px; color: #fff; margin-bottom: 10px;
+        font-size: 18px; color: #fff; margin-bottom: 10px;
     }
     .slideB div.slide p{
-        font-weight: bold; font-size: 14px; margin-bottom: 35px;
+        font-weight: bold; font-size: 12px; margin-bottom: 15px;
         color: #fff;
     }
     .slideB > div .btn.white{
