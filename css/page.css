@@ -16,7 +16,7 @@
     .slideB .bx-wrapper .bx-pager.bx-default-pager a:hover,
     .slideB .bx-wrapper .bx-pager.bx-default-pager a.active,
     .slideB .bx-wrapper .bx-pager.bx-default-pager a:focus {background: #fff;}
-    .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 80px; padding-top: none;}
+    .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 40px; padding-top: none;}
     .slideB ol li{
         position: relative;
     }
@@ -26,17 +26,17 @@
         text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
     }
     .slideB div.slide{
-        position: absolute; width: 100%; text-align: center; bottom: 200px;
+        position: absolute; width: 100%; text-align: center; bottom: 80px;
     }
     .slideB div.slide h2{
-        font-size: 50px; color: #fff; margin-bottom: 20px;
+        font-size: 21px; color: #fff; margin-bottom: 10px;
     }
     .slideB div.slide p{
-        font-weight: bold; font-size: 25px; margin-bottom: 250px;
+        font-weight: bold; font-size: 14px; margin-bottom: 35px;
         color: #fff;
     }
     .slideB > div .btn.white{
-        font-weight: bold; font-size: 16px; padding: 15px 50px; display: inline-block;
+        font-weight: bold; font-size: 14px; padding: 10px 30px; display: inline-block;
     }
     div.MPage, section.Connect figure{
         max-width: 480px; margin: 0 auto;
@@ -1741,7 +1741,7 @@
     .slideB .bx-wrapper .bx-pager.bx-default-pager a:hover,
     .slideB .bx-wrapper .bx-pager.bx-default-pager a.active,
     .slideB .bx-wrapper .bx-pager.bx-default-pager a:focus {background: #fff;}
-    .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 80px; padding-top: none;}
+    .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 60px; padding-top: none;}
     .slideB ol li{
         position: relative;
     }
@@ -1755,10 +1755,10 @@
         bottom: 170px;
     }
     .slideB div.slide h2{
-        font-size: 60px; color: #fff; margin-bottom: 20px;
+        font-size: 50px; color: #fff; margin-bottom: 10px;
     }
     .slideB div.slide p{
-        font-weight: bold; font-size: 25px; margin-bottom: 85px;
+        font-weight: bold; font-size: 16px; margin-bottom: 60px;
         color: #fff;
     }
     .slideB > div .btn.white{
@@ -3479,7 +3479,9 @@
         padding: 95px 0 95px;
     }
     /* 메인 슬라이더 */
-    
+    .slideB{
+        position: relative;
+    }
     .slideB .bx-wrapper{box-shadow: none; border: none; background: none; margin-bottom: 0;}
     .bx-wrapper .bx-pager{padding-top: 0;}
     .slideB .bx-wrapper .bx-controls-direction a{width: 300px; height: 300px;}
