@@ -16,27 +16,27 @@
     .slideB .bx-wrapper .bx-pager.bx-default-pager a:hover,
     .slideB .bx-wrapper .bx-pager.bx-default-pager a.active,
     .slideB .bx-wrapper .bx-pager.bx-default-pager a:focus {background: #fff;}
-    .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 10px; padding-top: none;}
-    .slideB ol li{
-        position: relative;
+    .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 80px; padding-top: none;}
+    .slideB ol li.slidbg1{
+        background: url('../images/main_bg_1.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
+        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
     }
-    .slideB ol li.slidbg1 img,
-    .slideB ol li.slidbg2 img{
-        filter: brightness(70%); 
+    .slideB ol li.slidbg2{
+        background: url('../images/main_bg_2.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
         text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
     }
     .slideB div.slide{
-        position: absolute; width: 100%; text-align: center; bottom: 32px;
+        position: absolute; width: 100%; text-align: center; bottom: 200px;
     }
     .slideB div.slide h2{
-        font-size: 18px; color: #fff; margin-bottom: 10px;
+        font-size: 50px; color: #fff; margin-bottom: 20px;
     }
     .slideB div.slide p{
-        font-weight: bold; font-size: 12px; margin-bottom: 15px;
+        font-weight: bold; font-size: 25px; margin-bottom: 250px;
         color: #fff;
     }
     .slideB > div .btn.white{
-        font-weight: bold; font-size: 14px; padding: 10px 30px; display: inline-block;
+        font-weight: bold; font-size: 16px; padding: 15px 50px; display: inline-block;
     }
     div.MPage, section.Connect figure{
         max-width: 480px; margin: 0 auto;
@@ -1741,24 +1741,24 @@
     .slideB .bx-wrapper .bx-pager.bx-default-pager a:hover,
     .slideB .bx-wrapper .bx-pager.bx-default-pager a.active,
     .slideB .bx-wrapper .bx-pager.bx-default-pager a:focus {background: #fff;}
-    .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 60px; padding-top: none;}
-    .slideB ol li{
-        position: relative;
+    .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 80px; padding-top: none;}
+    .slideB ol li.slidbg1{
+        background: url('../images/main_bg_1.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
+        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
     }
-    .slideB ol li.slidbg1 img,
-    .slideB ol li.slidbg2 img{
-        filter: brightness(70%); 
+    .slideB ol li.slidbg2{
+        background: url('../images/main_bg_2.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
         text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
     }
     .slideB div.slide{
         position: absolute; width: 100%; text-align: center;
-        bottom: 170px;
+        bottom: 200px;
     }
     .slideB div.slide h2{
-        font-size: 50px; color: #fff; margin-bottom: 10px;
+        font-size: 60px; color: #fff; margin-bottom: 20px;
     }
     .slideB div.slide p{
-        font-weight: bold; font-size: 16px; margin-bottom: 60px;
+        font-weight: bold; font-size: 25px; margin-bottom: 250px;
         color: #fff;
     }
     .slideB > div .btn.white{
@@ -3479,6 +3479,7 @@
         padding: 95px 0 95px;
     }
     /* 메인 슬라이더 */
+    
     .slideB{
         position: relative;
     }
@@ -3494,9 +3495,12 @@
     .slideB ol li{
         position: relative;
     }
-    .slideB ol li.slidbg1 img,
-    .slideB ol li.slidbg2 img{
-        filter: brightness(70%); 
+    .slideB ol li.slidbg1{
+        background: url('../images/main_bg_1.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
+        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
+    }
+    .slideB ol li.slidbg2{
+        background: url('../images/main_bg_2.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
         text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
     }
     .slideB div.slide{
