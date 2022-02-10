@@ -17,12 +17,12 @@
     .slideB .bx-wrapper .bx-pager.bx-default-pager a.active,
     .slideB .bx-wrapper .bx-pager.bx-default-pager a:focus {background: #fff;}
     .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 80px; padding-top: none;}
-    .slideB ol li.slidbg1{
-        background: url('../images/main_bg_1.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
-        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
+    .slideB ol li{
+        position: relative;
     }
-    .slideB ol li.slidbg2{
-        background: url('../images/main_bg_2.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
+    .slideB ol li.slidbg1 img,
+    .slideB ol li.slidbg2 img{
+        filter: brightness(70%); 
         text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
     }
     .slideB div.slide{
@@ -1742,23 +1742,23 @@
     .slideB .bx-wrapper .bx-pager.bx-default-pager a.active,
     .slideB .bx-wrapper .bx-pager.bx-default-pager a:focus {background: #fff;}
     .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 80px; padding-top: none;}
-    .slideB ol li.slidbg1{
-        background: url('../images/main_bg_1.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
-        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
+    .slideB ol li{
+        position: relative;
     }
-    .slideB ol li.slidbg2{
-        background: url('../images/main_bg_2.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
+    .slideB ol li.slidbg1 img,
+    .slideB ol li.slidbg2 img{
+        filter: brightness(70%); 
         text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
     }
     .slideB div.slide{
         position: absolute; width: 100%; text-align: center;
-        bottom: 200px;
+        bottom: 170px;
     }
     .slideB div.slide h2{
         font-size: 60px; color: #fff; margin-bottom: 20px;
     }
     .slideB div.slide p{
-        font-weight: bold; font-size: 25px; margin-bottom: 250px;
+        font-weight: bold; font-size: 25px; margin-bottom: 85px;
         color: #fff;
     }
     .slideB > div .btn.white{
