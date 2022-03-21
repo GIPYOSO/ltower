@@ -3486,8 +3486,11 @@
     .slideB ol li{
         position: relative;
     }
+    .slideB ol li.slidbg{
+        width: 1903px;
+    }
     .slideB ol li img{
-        max-width: 1920px; height: 847px; text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
+        max-width: 1920px; width: 100%; height: 847px; text-align: center;
     }
     .slideB div.slide{
         position: absolute; width: 100%; text-align: center;
