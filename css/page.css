@@ -17,22 +17,17 @@
     .slideB .bx-wrapper .bx-pager.bx-default-pager a.active,
     .slideB .bx-wrapper .bx-pager.bx-default-pager a:focus {background: #fff;}
     .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 80px; padding-top: none;}
-    .slideB ol li.slidbg1{
-        background: url('../images/main_bg_1.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
-        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
-    }
-    .slideB ol li.slidbg2{
-        background: url('../images/main_bg_2.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
-        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
+    .slideB ol li img{
+        width: 1000px; height: 885px; text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
     }
     .slideB div.slide{
-        position: absolute; width: 100%; text-align: center; bottom: 200px;
+        position: absolute; width: 100%; text-align: center; bottom: 200px; 
     }
     .slideB div.slide h2{
-        font-size: 50px; color: #fff; margin-bottom: 20px;
+        font-size: 50px; color: #fff; margin-bottom: 20px; text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     }
     .slideB div.slide p{
-        font-weight: bold; font-size: 25px; margin-bottom: 250px;
+        font-weight: bold; font-size: 25px; margin-bottom: 250px; text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         color: #fff;
     }
     .slideB > div .btn.white{
@@ -1742,23 +1737,19 @@
     .slideB .bx-wrapper .bx-pager.bx-default-pager a.active,
     .slideB .bx-wrapper .bx-pager.bx-default-pager a:focus {background: #fff;}
     .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 80px; padding-top: none;}
-    .slideB ol li.slidbg1{
-        background: url('../images/main_bg_1.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
-        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
-    }
-    .slideB ol li.slidbg2{
-        background: url('../images/main_bg_2.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
-        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
-    }
     .slideB div.slide{
         position: absolute; width: 100%; text-align: center;
         bottom: 200px;
     }
+    .slideB ol li img{
+        height: 885px;
+        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
+    }
     .slideB div.slide h2{
-        font-size: 60px; color: #fff; margin-bottom: 20px;
+        font-size: 60px; color: #fff; margin-bottom: 20px; text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     }
     .slideB div.slide p{
-        font-weight: bold; font-size: 25px; margin-bottom: 250px;
+        font-weight: bold; font-size: 25px; margin-bottom: 250px; text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         color: #fff;
     }
     .slideB > div .btn.white{
@@ -3495,27 +3486,19 @@
     .slideB ol li{
         position: relative;
     }
-    .slideB ol li.slidbg1{
-        background: url('../images/main_bg_1.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
-        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
-    }
-    .slideB ol li.slidbg2{
-        background: url('../images/main_bg_2.jpg') no-repeat, rgba(0, 0, 0, 0.3); height: 893px;
-        text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
-    }
     .slideB div.slide{
         position: absolute; width: 100%; text-align: center;
         bottom: 180px;
     }
     .slideB div.slide h2{
-        font-size: 66px; color: #fff; margin-bottom: 20px;
+        font-size: 66px; color: #fff; margin-bottom: 20px; text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     }
     .slideB div.slide p{
-        font-weight: bold; font-size: 30px; margin-bottom: 210px;
+        font-weight: bold; font-size: 30px; margin-bottom: 210px; text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         color: #fff;
     }
     .slideB > div .btn.white{
-        font-weight: bold; font-size: 16px; padding: 15px 50px; display: inline-block;
+        font-weight: bold; font-size: 16px; padding: 15px 50px; display: inline-block; text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     }
 
     div.MPage,
