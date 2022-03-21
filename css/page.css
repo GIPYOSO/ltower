@@ -17,7 +17,8 @@
     .slideB .bx-wrapper .bx-pager.bx-default-pager a.active,
     .slideB .bx-wrapper .bx-pager.bx-default-pager a:focus {background: #fff;}
     .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 80px; padding-top: none;}
-    style .attribute .import {
+    li.slidbg1,
+    li.slidbg2{
         width: 770px;
     }
     .slideB ol li img{
@@ -1744,7 +1745,8 @@
         position: absolute; width: 100%; text-align: center;
         bottom: 200px;
     }
-    style .attribute .import{
+    li.slidbg1,
+    li.slidbg2{
         width: 1280px;
     }
     .slideB ol li img{
@@ -3492,7 +3494,8 @@
     .slideB ol li{
         position: relative;
     }
-    style .attribute .import{
+    li.slidbg1,
+    li.slidbg2{
         width: 1943px;
     }
     .slideB ol li img{
