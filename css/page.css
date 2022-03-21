@@ -3486,6 +3486,9 @@
     .slideB ol li{
         position: relative;
     }
+    .slideB ol li img{
+        height: 885px; text-align: center; background-blend-mode: multiply; background-size: cover; background-position: center;
+    }
     .slideB div.slide{
         position: absolute; width: 100%; text-align: center;
         bottom: 180px;
