@@ -444,7 +444,7 @@
     }
     .Attrslider .slideAttraction .scdslide > div > div{
         position: absolute; max-width: 1920px; width: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;
-        top: 0; padding: 0 0 10px;
+        bottom: 0; padding: 0 0 10px;
     }
     .Attrslider .slideAttraction .scdslide > div > div > div{
         max-width: 1440px; margin: 0 auto;
