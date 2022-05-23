@@ -1600,7 +1600,7 @@
         margin-left: 2%;
     }
     .findSection table{
-        max-width: 1440px; width: 100%;
+        max-width: 1440px; width: 100%; margin-bottom: 20px;
     }
     .findSection tr{
         border-top: 1px solid #000; text-align: center; height: 80px;
@@ -5080,7 +5080,6 @@
     .findSection tr td{
         font-size: 16px;
     }
-
     .paging{
         max-width: 1440px; margin: 0 auto; margin-bottom: 95px;
         text-align: center; position: relative; 
